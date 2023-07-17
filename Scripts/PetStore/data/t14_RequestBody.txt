@@ -1,0 +1,8 @@
+"{\"sent_at\":\"2023-05-05T14:02:12.378Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"ve"
+"rsion\":\"6.13.3\"}}\n"
+"{\"type\":\"session\"}\n"
+"{\"sid\":\"7edb48b66d414806be1e48839ee4aac2\",\"init\":true,\"started\":\"2023-05-05T14:02:12."
+"378Z\",\"timestamp\":\"2023-05-05T14:02:12.378Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\""
+"release\":\"10.28.3\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT "
+"10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/11"
+"2.0.1722.68\"}}"

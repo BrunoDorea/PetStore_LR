@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1439
+Connection: close
+User-Agent: DLNADOC/1.50 SEC_HHP_[TV] Samsung 7 Series (43)
+Server: SHP, UPnP/1.0, Samsung UPnP SDK/1.0
+Application-URL: http://192.168.100.239:8080/ws/app/
+

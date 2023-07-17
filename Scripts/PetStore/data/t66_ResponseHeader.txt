@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Length: 9
+Content-Type: application/json
+Server: Microsoft-HTTPAPI/2.0
+Strict-Transport-Security: max-age=31536000
+time-delta-millis: 1694
+Access-Control-Allow-Headers: time-delta-millis
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: time-delta-millis
+Date: Fri, 05 May 2023 14:05:08 GMT
+

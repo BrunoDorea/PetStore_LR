@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 20
+Content-Type: text/html; charset=utf-8
+Content-Encoding: br
+Vary: Accept-Encoding
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: MUIDB=35B64BF2C38D603B1306592EC2546189; expires=Wed, 29-May-2024 14:02:20 GMT; path=/; HttpOnly
+Set-Cookie: SRCHHPGUSR=SRCHLANG=pt-BR&DM=0&PV=15.0.0&BRW=HTP&BRH=S&CW=977&CH=531&SCW=1164&SCH=2589&DPR=1.0&UTC=-180&EXLTT=3&HV=1683291871&PRVCW=977&PRVCH=531; domain=.bing.com; expires=Wed, 29-May-2024 14:02:20 GMT; path=/; secure; SameSite=None
+Set-Cookie: _U=1tOZNtjnBI13YEI9WaYS02lwnUmZoa_20N69Tw0aIyMWi9QRkcTYsqIaejwa8Osx7adWglAwQBaQ3R9ZCyKAeBgpykkKhsbBKc5fAbDd1ME4WSFZvrZdq6jLWREX-2KoTDVIssO4Ts2asMoTRzYmTXigm2xr9G4-RJqPqK4n29t9SkZsu2MfFEiLOAgbEr6JZE469OhcwdlPGA8SasykMl7irdJw3ZP7hzQbrsU3PLj8; domain=.bing.com; expires=Fri, 19-May-2023 14:02:20 GMT; path=/; secure; SameSite=None
+Set-Cookie: ANON=A=61451215952A6D180D20C1E9FFFFFFFF&E=1c20&W=1; domain=.bing.com; expires=Wed, 29-May-2024 14:02:20 GMT; path=/; secure; SameSite=None
+X-EventID: 64550c6c77204d00945e10e86dff0ac9
+UserAgentReductionOptOut: A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=
+Content-Security-Policy-Report-Only: script-src https: 'strict-dynamic' 'report-sample' 'nonce-H7dufhCUx4QZHPLEWlXdT43IQeCdo5VF2wp/6xf0sm0='; base-uri 'self';report-to csp-endpoint
+Report-To: {"group":"csp-endpoint","max_age":86400,"endpoints":[{"url":"https://aefd.nelreports.net/api/report?cat=bingcsp"}]}
+X-Cache: CONFIG_NOCACHE
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-MSEdge-Ref: Ref A: 4F805EE897794ACF83487351775CB4E0 Ref B: GRU30EDGE1414 Ref C: 2023-05-05T14:02:20Z
+Date: Fri, 05 May 2023 14:02:20 GMT
+

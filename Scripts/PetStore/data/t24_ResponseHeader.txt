@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Fri, 05 May 2023 14:02:21 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: keep-alive
+Access-Control-Allow-Origin: chrome-extension://ejbalbakoplchlghecdalmeeeajnimhm
+Vary: Origin
+Vary: Accept-Encoding
+

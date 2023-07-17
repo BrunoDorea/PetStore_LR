@@ -1,0 +1,11 @@
+[t53]
+FileName1=t53.json
+URL1=https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3
+Total=1
+RequestHeaderFile=t53_RequestHeader.txt
+RequestBodyFile=t53_RequestBody.txt
+ResponseHeaderFile=t53_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_51.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

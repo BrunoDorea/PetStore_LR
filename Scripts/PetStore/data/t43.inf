@@ -1,0 +1,13 @@
+[t43]
+FileName1=t43_ntp.json
+URL1=https://assets.msn.com/serviceak/news/feed/pages/ntp?User=m-35B64BF2C38D603B1306592EC2546189&activityId=C21AC699-DEC3-4D59-9367-F956C327C975&apikey=0QfOX3Vn51YCzitbLaRkTTBadtWpgTN8NZLW0C1SEM&audienceMode=adult&caller=bgtask&cm=pt-br&contentType=article,video,slideshow,webcontent&duotone=true&infopaneCount=17&it=app&memory=8&newsSkip=0&newsTop=48&ocid=anaheim-ntp-feeds&prerender=1&scn=APP_ANON&timeOut=1000&wposchema=byregion
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_41.xml
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t43_ResponseHeader.txt
+FileName2=t43_humidity.svg
+URL2=https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v5/humidity.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

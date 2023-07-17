@@ -1,0 +1,13 @@
+[t61]
+FileName1=t61.json
+URL1=https://functional.events.data.microsoft.com/OneCollector/1.0/
+Total=2
+RequestHeaderFile=t61_RequestHeader.txt
+RequestBodyFile=t61_RequestBody.txt
+ResponseHeaderFile=t61_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_59.xml
+FileName2=t61_threatListUpdates_fetch.html
+URL2=https://edge.microsoft.com/extensionrevocation/v1/threatListUpdates_fetch?req=ChcKBm1zZWRnZRINMTEyLjAuMTcyMi42OBobCAEQCBoNMTY4MzI2ODAyODc3MSIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362
+[ProtocolInfo]
+ProtocolId=QTWeb

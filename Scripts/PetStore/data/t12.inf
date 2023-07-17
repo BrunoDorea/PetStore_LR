@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12.json
+URL1=https://edge.microsoft.com/identity/api/v3/msa
+Total=1
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_10.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

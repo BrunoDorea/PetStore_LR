@@ -1,0 +1,5 @@
+"<ClientInstRequest><Events><E><T>Event.ClientInst</T><IG>977589CA5892446ABE462DA9F5817B5C</IG>"
+"<TS>1683295340238</TS><D><![CDATA[{id:6425,P:\"2:6,3:37h,4:3l4,5:3l4,7:3yt,6:3ly,8:3yt,9:44n,1"
+"0:45k,11:44y,12:48i,13:48i,14:48i,15:48i,16:48i,17:48j,FN:46u,BN:46u\",S:\"nav:0\",v:1.1,T:\"C"
+"I.Perf\",FID:\"CI\",Name:\"PerfV2\"}]]></D></E></Events><STS>1683295340238</STS></ClientInstRe"
+"quest>"

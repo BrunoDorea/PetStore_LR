@@ -1,0 +1,13 @@
+[t57]
+FileName1=t57.json
+URL1=https://functional.events.data.microsoft.com/OneCollector/1.0/
+Total=2
+RequestHeaderFile=t57_RequestHeader.txt
+RequestBodyFile=t57_RequestBody.txt
+ResponseHeaderFile=t57_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_55.xml
+FileName2=t57_asset.html
+URL2=https://edgeassetservice.azureedge.net/assets/extraction.proactiveProduct.en-us/5.9.0/asset?sv=2017-07-29&sr=c&sig=VBUha8aZq2CR6BVgg4iR2AzxZ9sd72hf%2BVSuB6e%2BhKA%3D&st=2021-01-01T00%3A00%3A00Z&se=2023-07-30T00%3A00%3A00Z&sp=r&assetgroup=EntityExtractionPicl
+[ProtocolInfo]
+ProtocolId=QTWeb

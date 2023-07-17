@@ -1,0 +1,11 @@
+[t47]
+FileName1=t47.html
+URL1=https://aefd.nelreports.net/api/report?cat=bingth
+Total=1
+RequestHeaderFile=t47_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t47_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_45.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t55]
+FileName1=t55.html
+URL1=https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/settings/3
+Total=1
+RequestHeaderFile=t55_RequestHeader.txt
+RequestBodyFile=t55_RequestBody.txt
+ResponseHeaderFile=t55_ResponseHeader.txt
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_53.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,3120 @@
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Downloading resource "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(40): Downloading resource "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(40): The request to server https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" is done with headers:
+Action.c(40):     :method = GET
+Action.c(40):     :scheme = https
+Action.c(40):     :path = /api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerel
+Action.c(40):     ease
+Action.c(40):     :authority = data-edge.smartscreen.microsoft.com
+Action.c(40):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(40):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(40):     Accept-Encoding = gzip, deflate, br
+Action.c(40):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(40):     Accept = */*
+Action.c(40): The request to server https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" is done with headers:
+Action.c(40):     :method = GET
+Action.c(40):     :scheme = https
+Action.c(40):     :path = /api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prereleas
+Action.c(40):     e
+Action.c(40):     :authority = data-edge.smartscreen.microsoft.com
+Action.c(40):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(40):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(40):     Accept-Encoding = gzip, deflate, br
+Action.c(40):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(40):     Accept = */*
+Action.c(40): Warning -27760: Request "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" failed  	[MsgId: MWAR-27760]
+Action.c(40): Warning -27760: Request "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" failed  	[MsgId: MWAR-27760]
+Action.c(40): web_url("Catalog.action_3") highest severity level was "warning", 3664 body bytes, 213 header bytes  	[MsgId: MMSG-26388]
+Action.c(53): Notify: Transaction "PET_STORE_03_SELECT_PRODUCT_ID" ended with a "Pass" status (Duration: 0.2662 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(55): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Action.c(6): t=804630ms: 288-byte response headers for "https://petstore.octoperf.com/actions/Catalog.action" (RelFrameId=1, Internal ID=433)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: text/html;charset=UTF-8\r\n
+Action.c(6):     content-length: 5119\r\n
+Action.c(6):     set-cookie: JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE; Path=/; HttpOnly\r\n
+Action.c(6):     content-language: en\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=804631ms: 3884-byte response body for "https://petstore.octoperf.com/actions/Catalog.action" (RelFrameId=1, Internal ID=433)
+Action.c(6):     \n
+Action.c(6):     \n
+Action.c(6):     \n
+Action.c(6):     \n
+Action.c(6):     \n
+Action.c(6):     \n
+Action.c(6):     \n
+Action.c(6):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(6):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(6):     \n
+Action.c(6):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(6):     \n
+Action.c(6):     <head>\n
+Action.c(6):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(6):     \tmedia="screen" />\n
+Action.c(6):     \n
+Action.c(6):     <meta name="generator"\n
+Action.c(6):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(6):     <title>JPetStore Demo</title>\n
+Action.c(6):     <meta content="text/html; charset=windows-1252"\n
+Action.c(6):     \thttp-equiv="Content-Type" />\n
+Action.c(6):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(6):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(6):     <meta http-equiv="expires" content="0" />\n
+Action.c(6):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(6):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(6):     </head>\n
+Action.c(6):     \n
+Action.c(6):     <body>\n
+Action.c(6):     \n
+Action.c(6):     <div id="Header">\n
+Action.c(6):     \n
+Action.c(6):     <div id="Logo">\n
+Action.c(6):     <div id="LogoContent"><a href="/actions/Catalog.action;jsessionid=C6E3EDAC5B24333352C866D2
+Action.c(6):     3E1CC2EE"><img src="../images/logo-topbar.gif" /></a></div>\n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     <div id="Menu">\n
+Action.c(6):     <div id="MenuContent"><a href="/actions/Cart.action;jsessionid=C6E3EDAC5B24333352C866D23E1
+Action.c(6):     CC2EE?viewCart="><img align="middle" name="img_cart" src="../images/cart.gif" /></a> <img 
+Action.c(6):     align="middle" src="../images/separator.gif" /> \n
+Action.c(6):     \t<a href="/actions/Account.action;jsessionid=C6E3EDAC5B24333352C866D23E1CC2EE?signonForm=
+Action.c(6):     ">Sign In</a>\n
+Action.c(6):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(6):     \thref="../help.html">?</a></div>\n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     <div id="Search">\n
+Action.c(6):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action;jsessionid=C6E
+Action.c(6):     3EDAC5B24333352C866D23E1CC2EE">\n
+Action.c(6):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(6):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(6):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="GujubUk7iSzuT01
+Action.c(6):     yoGwIAytgAJNE2OylZcFFvVhw1Xzcj5X9me2MMxTslxgu0fU7UGmLeZC7PLGfgUEOnLGOJepHV5Wti_MN" /><inpu
+Action.c(6):     t type="hidden" name="__fp" value="WbBEReYpQzT8dL52zwaXIgtJTnK2VWeiQl9eMwTjEqebNZ0Y9fYCTJd
+Action.c(6):     BqrYOa3om" /></div></form></div>\n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     <div id="QuickLinks"><a href="/actions/Catalog.action;jsessionid=C6E3EDAC5B24333352C866D23
+Action.c(6):     E1CC2EE?viewCategory=&amp;categoryId=FISH"><img src="../images/sm_fish.gif" /></a> <img sr
+Action.c(6):     c="../images/separator.gif" /> <a href="/actions/Catalog.action;jsessionid=C6E3EDAC5B24333
+Action.c(6):     352C866D23E1CC2EE?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" /></
+Action.c(6):     a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action;jsessionid=C6E3E
+Action.c(6):     DAC5B24333352C866D23E1CC2EE?viewCategory=&amp;categoryId=REPTILES"><img src="../images/sm_
+Action.c(6):     reptiles.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.actio
+Action.c(6):     n;jsessionid=C6E3EDAC5B24333352C866D23E1CC2EE?viewCategory=&amp;categoryId=CATS"><img src=
+Action.c(6):     "../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions/Cat
+Action.c(6):     alog.action;jsessionid=C6E3EDAC5B24333352C866D23E1CC2EE?viewCategory=&amp;categoryId=BIRDS
+Action.c(6):     "><img src="../images/sm_birds.gif" /></a></div>\n
+Action.c(6):     \n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     <div id="Content">\n
+Action.c(6):     \n
+Action.c(6):     <div id="Welcome">\n
+Action.c(6):     <div id="WelcomeContent"></div>\n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     <div id="Main">\n
+Action.c(6):     <div id="Sidebar">\n
+Action.c(6):     <div id="SidebarContent"><a href="/actions/Catalog.action;jsessionid=C6E3EDAC5B24333352C86
+Action.c(6):     6D23E1CC2EE?viewCategory=&amp;categoryId=FISH"><img src="../images/fish_icon.gif" /></a> <
+Action.c(6):     br />\n
+Action.c(6):     Saltwater, Freshwater <br />\n
+Action.c(6):     <a href="/actions/Catalog.action;jsessionid=C6E3EDAC5B24333352C866D23E1CC2EE?viewCategory=
+Action.c(6):     &amp;categoryId=DOGS"><img src="../images/dogs_icon.gif" /></a> <br />\n
+Action.c(6):     Various Breeds <br />\n
+Action.c(6):     <a href="/actions/Catalog.action;jsessionid=C6E3EDAC5B24333352C866D23E1CC2EE?viewCategory=
+Action.c(6):     &amp;categoryId=CATS"><img src="../images/cats_icon.gif" /></a> <br />\n
+Action.c(6):     Various Breeds, Exotic Varieties <br />\n
+Action.c(6):     <a href="/actions/Catalog.action;jsessionid=C6E3EDAC5B24333352C866D23E1CC2EE?viewCategory=
+Action.c(6):     &amp;categoryId=REPTILES"><img src="../images/reptiles_icon.gif" /></a> <br />\n
+Action.c(6):     Lizards, Turtles, Snakes <br />\n
+Action.c(6):     <a href="/actions/Catalog.action;jsessionid=
+Action.c(6): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/css/jpetstore.css" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /css/jpetstore.css
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/logo-topbar.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/logo-topbar.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/logo-topbar.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/cart.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/cart.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/cart.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/separator.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/separator.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/separator.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_fish.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/sm_fish.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/sm_fish.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_dogs.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/sm_dogs.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/sm_dogs.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_reptiles.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/sm_reptiles.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/sm_reptiles.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_cats.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/sm_cats.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/sm_cats.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_birds.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/sm_birds.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/sm_birds.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/fish_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/fish_icon.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/fish_icon.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/dogs_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/dogs_icon.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/dogs_icon.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/cats_icon.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/cats_icon.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/reptiles_icon.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/reptiles_icon.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): t=804645ms: 1235-byte response body for "https://petstore.octoperf.com/actions/Catalog.action" (RelFrameId=1, Internal ID=433)
+Action.c(6):     C6E3EDAC5B24333352C866D23E1CC2EE?viewCategory=&amp;categoryId=BIRDS"><img src="../images/b
+Action.c(6):     irds_icon.gif" /></a> <br />\n
+Action.c(6):     Exotic Varieties</div>\n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     <div id="MainImage">\n
+Action.c(6):     <div id="MainImageContent">\n
+Action.c(6):       <map name="estoremap">\n
+Action.c(6):     \t<area alt="Birds" coords="72,2,280,250"\n
+Action.c(6):     \t\thref="Catalog.action?viewCategory=&categoryId=BIRDS" shape="RECT" />\n
+Action.c(6):     \t<area alt="Fish" coords="2,180,72,250"\n
+Action.c(6):     \t\thref="Catalog.action?viewCategory=&categoryId=FISH" shape="RECT" />\n
+Action.c(6):     \t<area alt="Dogs" coords="60,250,130,320"\n
+Action.c(6):     \t\thref="Catalog.action?viewCategory=&categoryId=DOGS" shape="RECT" />\n
+Action.c(6):     \t<area alt="Reptiles" coords="140,270,210,340"\n
+Action.c(6):     \t\thref="Catalog.action?viewCategory=&categoryId=REPTILES" shape="RECT" />\n
+Action.c(6):     \t<area alt="Cats" coords="225,240,295,310"\n
+Action.c(6):     \t\thref="Catalog.action?viewCategory=&categoryId=CATS" shape="RECT" />\n
+Action.c(6):     \t<area alt="Birds" coords="280,180,350,250"\n
+Action.c(6):     \t\thref="Catalog.action?viewCategory=&categoryId=BIRDS" shape="RECT" />\n
+Action.c(6):       </map> \n
+Action.c(6):       <img height="355" src="../images/splash.gif" align="middle"\n
+Action.c(6):     \tusemap="#estoremap" width="350" /></div>\n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     <div id="Separator">&nbsp;</div>\n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     \n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     <div id="Footer">\n
+Action.c(6):     \n
+Action.c(6):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     <div id="Banner"></div>\n
+Action.c(6):     \n
+Action.c(6):     </div>\n
+Action.c(6):     \n
+Action.c(6):     </body>\n
+Action.c(6):     </html>\n
+Action.c(6):     \n
+Action.c(6): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/birds_icon.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/birds_icon.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): The request to server https://petstore.octoperf.com/images/splash.gif" is done with headers:
+Action.c(6):     :method = GET
+Action.c(6):     :scheme = https
+Action.c(6):     :path = /images/splash.gif
+Action.c(6):     :authority = petstore.octoperf.com
+Action.c(6):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(6):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(6):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(6):     Accept-Encoding = gzip, deflate, br
+Action.c(6):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(6):     Accept = */*
+Action.c(6):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(6): t=804845ms: 274-byte response headers for "https://petstore.octoperf.com/css/jpetstore.css" (RelFrameId=, Internal ID=434)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: text/css\r\n
+Action.c(6):     content-length: 5680\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"5680-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=804846ms: 3898-byte response body for "https://petstore.octoperf.com/css/jpetstore.css" (RelFrameId=, Internal ID=434)
+Action.c(6):     /**\n
+Action.c(6):      *    Copyright 2010-2020 the original author or authors.\n
+Action.c(6):      *\n
+Action.c(6):      *    Licensed under the Apache License, Version 2.0 (the "License");\n
+Action.c(6):      *    you may not use this file except in compliance with the License.\n
+Action.c(6):      *    You may obtain a copy of the License at\n
+Action.c(6):      *\n
+Action.c(6):      *       http://www.apache.org/licenses/LICENSE-2.0\n
+Action.c(6):      *\n
+Action.c(6):      *    Unless required by applicable law or agreed to in writing, software\n
+Action.c(6):      *    distributed under the License is distributed on an "AS IS" BASIS,\n
+Action.c(6):      *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n
+Action.c(6):      *    See the License for the specific language governing permissions and\n
+Action.c(6):      *    limitations under the License.\n
+Action.c(6):      */\n
+Action.c(6):     body {\n
+Action.c(6):       margin: 0ex 10ex 0ex 10ex;\n
+Action.c(6):       padding: 0ex;\n
+Action.c(6):       font-family: helvetica, tahoma, arial, verdana, sans-serif;\n
+Action.c(6):       font-size: 2ex;\n
+Action.c(6):       color: #333;\n
+Action.c(6):       background-color: #444;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     pre {\n
+Action.c(6):       font-family: "Courier New", Courier, monospace;\n
+Action.c(6):     \n
+Action.c(6):       font-style: normal;\n
+Action.c(6):       background-color: #FFFFFF;\n
+Action.c(6):       white-space: pre\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     h1 {\n
+Action.c(6):       margin: 1ex 0ex 1ex 0ex;\n
+Action.c(6):       padding: 0ex;\n
+Action.c(6):     \n
+Action.c(6):       line-height: 3ex;\n
+Action.c(6):       font-weight: 900;\n
+Action.c(6):       color: #666;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     h2 {\n
+Action.c(6):       margin: 2ex 0ex 1ex 0ex;\n
+Action.c(6):       padding: 0ex;\n
+Action.c(6):     \n
+Action.c(6):       line-height: 2ex;\n
+Action.c(6):       font-weight: 700;\n
+Action.c(6):       color: #444;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     h3 {\n
+Action.c(6):       margin: 1ex 0ex 1ex 0ex;\n
+Action.c(6):       padding: 0ex;\n
+Action.c(6):     \n
+Action.c(6):       line-height: 1.6ex;\n
+Action.c(6):       font-weight: 700;\n
+Action.c(6):       color: #222;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     p {\n
+Action.c(6):       font-family: helvetica, tahoma, arial, verdana, sans-serif;\n
+Action.c(6):     \n
+Action.c(6):       margin: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       padding: 2ex;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     img {\n
+Action.c(6):       border: 0;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     li {\n
+Action.c(6):       font-family: helvetica, tahoma, arial, verdana, sans-serif;\n
+Action.c(6):     \n
+Action.c(6):       margin: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       padding: 0ex;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     table {\n
+Action.c(6):       border-width: 0;\n
+Action.c(6):       empty-cells: show;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     td, th {\n
+Action.c(6):       empty-cells: show;\n
+Action.c(6):       padding: .3ex .3ex;\n
+Action.c(6):       vertical-align: top;\n
+Action.c(6):       text-align: left;\n
+Action.c(6):       border-width: 0;\n
+Action.c(6):       border-spacing: 0;\n
+Action.c(6):       background-color: #ececec\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     th {\n
+Action.c(6):       font-weight: bold;\n
+Action.c(6):       background-color: #e2e2e2;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     a, a:visited, a:link {\n
+Action.c(6):       color: #039;\n
+Action.c(6):     \n
+Action.c(6):       text-decoration: none;\n
+Action.c(6):       font-family: helvetica, tahoma, arial, verdana, sans-serif;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     a:hover {\n
+Action.c(6):       color: #69f;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     a.Button, a.Button:link, a.Button:visited {\n
+Action.c(6):       padding: .3ex;\n
+Action.c(6):       color: #fff;\n
+Action.c(6):       background-color: #005e21;\n
+Action.c(6):       text-decoration: none;\n
+Action.c(6):       font-family: helvetica, tahoma, arial, verdana, sans-serif;\n
+Action.c(6):       font-size: 1.5ex;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     a.Button:hover {\n
+Action.c(6):       color: #000;\n
+Action.c(6):       background-color: #54c07a;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Logo {\n
+Action.c(6):       width: 33%;\n
+Action.c(6):       height: 9ex;\n
+Action.c(6):       margin: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       padding: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       border-width: 0ex 0ex .3ex 0px;\n
+Action.c(6):       border-style: solid;\n
+Action.c(6):       border-color: #ccc;\n
+Action.c(6):       float: left;\n
+Action.c(6):       background-color: #000;\n
+Action.c(6):       color: #fff;\n
+Action.c(6):       line-height: 9ex;\n
+Action.c(6):       voice-family: "\\"}\\"";\n
+Action.c(6):       voice-family: inherit;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     body>#Logo {\n
+Action.c(6):       height: 9ex;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Menu {\n
+Action.c(6):       width: 33%;\n
+Action.c(6):       height: 9ex;\n
+Action.c(6):       margin: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       padding: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       border-width: 0ex 0ex .3ex 0px;\n
+Action.c(6):       border-style: solid;\n
+Action.c(6):       border-color: #ccc;\n
+Action.c(6):       float: left;\n
+Action.c(6):       background-color: #000;\n
+Action.c(6):       color: #eaac00;\n
+Action.c(6):       text-decoration: none;\n
+Action.c(6):       font-family: helvetica, tahoma, arial, verdana, sans-serif;\n
+Action.c(6):       text-align: center;\n
+Action.c(6):       line-height: 9ex;\n
+Action.c(6):       voice-family: "\\"}\\"";\n
+Action.c(6):       voice-family: inherit;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Menu, #Menu a, #Menu a:link, #Menu a:visited, #Menu a:hover {\n
+Action.c(6):       color: #eaac00;\n
+Action.c(6):       text-decoration: none;\n
+Action.c(6):       font-family: helvetica, tahoma, arial, verdana, sans-serif;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     body>#Menu {\n
+Action.c(6):       height: 9ex;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):      {\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Search {\n
+Action.c(6):       width: 33%;\n
+Action.c(6):       height: 9ex;\n
+Action.c(6):       margin: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       padding: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       border-width: 0ex 0ex .3ex 0px;\n
+Action.c(6):       border-style: solid;\n
+Action.c(6):       border-color: #ccc;\n
+Action.c(6):       float: left;\n
+Action.c(6):       text-align: center;\n
+Action.c(6):       background-color: #000;\n
+Action.c(6):       color: #eaac00;\n
+Action.c(6):       line-height: 9ex;\n
+Action.c(6):       voice-family: "\\"}\\"";\n
+Action.c(6):       voice-family: inherit;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     body>#Search {\n
+Action.c(6):       height: 9ex;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Search input {\n
+Action.c(6):       border-width: .1ex .1ex .1ex .1ex;\n
+Action.c(6):       border-style: solid;\n
+Action.c(6):       border-color: #aaa;\n
+Action.c(6):       background-color: #666;\n
+Action.c(6):       color: #eaac00;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #QuickLinks {\n
+Action.c(6):       text-align: center;\n
+Action.c(6):       background-color: #FFF;\n
+Action.c(6):       width: 99%;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #PoweredBy {\n
+Action.c(6):       width: 30%;\n
+Action.c(6):       height: 9ex;\n
+Action.c(6):       margin: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       padding: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       border-width: .3ex 0ex .3
+Action.c(6): t=804857ms: 1782-byte response body for "https://petstore.octoperf.com/css/jpetstore.css" (RelFrameId=, Internal ID=434)
+Action.c(6):     ex 0px;\n
+Action.c(6):       border-style: solid;\n
+Action.c(6):       border-color: #ccc;\n
+Action.c(6):       float: left;\n
+Action.c(6):       background-color: #000;\n
+Action.c(6):       color: #fff;\n
+Action.c(6):       line-height: 9ex;\n
+Action.c(6):       voice-family: "\\"}\\"";\n
+Action.c(6):       voice-family: inherit;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     body>#PoweredBy {\n
+Action.c(6):       height: 9ex;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Banner {\n
+Action.c(6):       width: 69%;\n
+Action.c(6):       height: 9ex;\n
+Action.c(6):       margin: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       padding: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       border-width: .3ex 0ex .3ex 0px;\n
+Action.c(6):       border-style: solid;\n
+Action.c(6):       border-color: #ccc;\n
+Action.c(6):       float: left;\n
+Action.c(6):       background-color: #000;\n
+Action.c(6):       color: #fff;\n
+Action.c(6):       line-height: 9ex;\n
+Action.c(6):       voice-family: "\\"}\\"";\n
+Action.c(6):       voice-family: inherit;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     body>#Banner {\n
+Action.c(6):       height: 9ex;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Content {\n
+Action.c(6):       margin: 0;\n
+Action.c(6):       padding: 0ex 0ex 0ex 0ex;\n
+Action.c(6):       width: 99%;\n
+Action.c(6):       color: #333;\n
+Action.c(6):       background-color: #FFF;\n
+Action.c(6):       border-width: 0;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Separator {\n
+Action.c(6):       clear:both;\n
+Action.c(6):       margin: 0;\n
+Action.c(6):       height:0;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Main {\n
+Action.c(6):       margin: 0;\n
+Action.c(6):       padding: 1ex;\n
+Action.c(6):       color: #333;\n
+Action.c(6):       background-color: #FFF;\n
+Action.c(6):       border-width: 1ex 0ex 2ex 0px;\n
+Action.c(6):       border-style: solid;\n
+Action.c(6):       border-color: #fff;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Sidebar {\n
+Action.c(6):       float: left;\n
+Action.c(6):       background:inherit;\n
+Action.c(6):       width: 30%;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #MainImage {\n
+Action.c(6):       float: left;\n
+Action.c(6):       background:inherit;\n
+Action.c(6):       text-align:center;\n
+Action.c(6):       width: 50%;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Catalog {\n
+Action.c(6):       padding: 1ex;\n
+Action.c(6):       background:inherit;\n
+Action.c(6):       text-align:center;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Catalog input[type="submit"]{\n
+Action.c(6):       padding: .3ex;\n
+Action.c(6):       color: #fff;\n
+Action.c(6):       background-color: #005e21;\n
+Action.c(6):       text-decoration: none;\n
+Action.c(6):       font-family: helvetica, tahoma, arial, verdana, sans-serif;\n
+Action.c(6):       font-size: 1.5ex;\n
+Action.c(6):       border-width:0;\n
+Action.c(6):     }\n
+Action.c(6):     #Catalog input[type="submit"]:hover {\n
+Action.c(6):       color: #000;\n
+Action.c(6):       background-color: #54c07a;\n
+Action.c(6):       cursor:pointer;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Catalog table{\n
+Action.c(6):       margin-left:auto;\n
+Action.c(6):       margin-right:auto;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #BackLink{\n
+Action.c(6):       padding: 1ex;\n
+Action.c(6):       float: right;\n
+Action.c(6):       border-width: .1ex 0ex .1ex 0px;\n
+Action.c(6):       border-style: solid;\n
+Action.c(6):       border-color: #000;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #Cart{\n
+Action.c(6):       width: 69.99%;\n
+Action.c(6):       float: left;\n
+Action.c(6):       background-color:#fff;\n
+Action.c(6):     }\n
+Action.c(6):     \n
+Action.c(6):     #MyList{\n
+Action.c(6):       width: 30%;\n
+Action.c(6):       float: left;\n
+Action.c(6):       background-color:#ccc;\n
+Action.c(6):       text-align:left;\n
+Action.c(6):     }\n
+Action.c(6): t=804864ms: 271-byte response headers for "https://petstore.octoperf.com/images/cart.gif" (RelFrameId=, Internal ID=436)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 96\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"96-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=804864ms: 96-byte response body for "https://petstore.octoperf.com/images/cart.gif" (RelFrameId=, Internal ID=436)
+Action.c(6): t=804865ms: 275-byte response headers for "https://petstore.octoperf.com/images/logo-topbar.gif" (RelFrameId=, Internal ID=435)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 3808\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"3808-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=804865ms: 3808-byte response body for "https://petstore.octoperf.com/images/logo-topbar.gif" (RelFrameId=, Internal ID=435)
+Action.c(6): t=804866ms: 271-byte response headers for "https://petstore.octoperf.com/images/separator.gif" (RelFrameId=, Internal ID=437)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 46\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"46-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=804866ms: 46-byte response body for "https://petstore.octoperf.com/images/separator.gif" (RelFrameId=, Internal ID=437)
+Action.c(6): t=804867ms: 273-byte response headers for "https://petstore.octoperf.com/images/sm_fish.gif" (RelFrameId=, Internal ID=438)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 271\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"271-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=804867ms: 271-byte response body for "https://petstore.octoperf.com/images/sm_fish.gif" (RelFrameId=, Internal ID=438)
+Action.c(6): t=804867ms: 273-byte response headers for "https://petstore.octoperf.com/images/sm_dogs.gif" (RelFrameId=, Internal ID=439)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 306\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"306-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=804868ms: 306-byte response body for "https://petstore.octoperf.com/images/sm_dogs.gif" (RelFrameId=, Internal ID=439)
+Action.c(6): t=804868ms: 273-byte response headers for "https://petstore.octoperf.com/images/sm_cats.gif" (RelFrameId=, Internal ID=441)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 289\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"289-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=804869ms: 289-byte response body for "https://petstore.octoperf.com/images/sm_cats.gif" (RelFrameId=, Internal ID=441)
+Action.c(6): t=805039ms: 273-byte response headers for "https://petstore.octoperf.com/images/sm_reptiles.gif" (RelFrameId=, Internal ID=440)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 398\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"398-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=805040ms: 398-byte response body for "https://petstore.octoperf.com/images/sm_reptiles.gif" (RelFrameId=, Internal ID=440)
+Action.c(6): t=805040ms: 273-byte response headers for "https://petstore.octoperf.com/images/sm_birds.gif" (RelFrameId=, Internal ID=442)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 251\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"251-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=805041ms: 251-byte response body for "https://petstore.octoperf.com/images/sm_birds.gif" (RelFrameId=, Internal ID=442)
+Action.c(6): t=805041ms: 273-byte response headers for "https://petstore.octoperf.com/images/fish_icon.gif" (RelFrameId=, Internal ID=443)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 439\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"439-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=805042ms: 439-byte response body for "https://petstore.octoperf.com/images/fish_icon.gif" (RelFrameId=, Internal ID=443)
+Action.c(6): t=805042ms: 273-byte response headers for "https://petstore.octoperf.com/images/dogs_icon.gif" (RelFrameId=, Internal ID=444)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 468\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"468-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=805043ms: 468-byte response body for "https://petstore.octoperf.com/images/dogs_icon.gif" (RelFrameId=, Internal ID=444)
+Action.c(6): t=805043ms: 273-byte response headers for "https://petstore.octoperf.com/images/reptiles_icon.gif" (RelFrameId=, Internal ID=446)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 669\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"669-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=805044ms: 669-byte response body for "https://petstore.octoperf.com/images/reptiles_icon.gif" (RelFrameId=, Internal ID=446)
+Action.c(6): t=805044ms: 273-byte response headers for "https://petstore.octoperf.com/images/cats_icon.gif" (RelFrameId=, Internal ID=445)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 408\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"408-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=805045ms: 408-byte response body for "https://petstore.octoperf.com/images/cats_icon.gif" (RelFrameId=, Internal ID=445)
+Action.c(6): t=805045ms: 273-byte response headers for "https://petstore.octoperf.com/images/birds_icon.gif" (RelFrameId=, Internal ID=447)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 471\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"471-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=805046ms: 471-byte response body for "https://petstore.octoperf.com/images/birds_icon.gif" (RelFrameId=, Internal ID=447)
+Action.c(6): t=805046ms: 277-byte response headers for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6):     HTTP/2.0 200\r\n
+Action.c(6):     Status: 200\r\n
+Action.c(6):     date: Fri, 02 Jun 2023 16:16:32 GMT\r\n
+Action.c(6):     content-type: image/gif\r\n
+Action.c(6):     content-length: 36097\r\n
+Action.c(6):     accept-ranges: bytes\r\n
+Action.c(6):     etag: W/"36097-1645112688000"\r\n
+Action.c(6):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(6):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(6):     \r\n
+Action.c(6): t=805047ms: 3895-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805047ms: 4087-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805047ms: 9-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805047ms: 4087-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805047ms: 9-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805048ms: 4087-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805048ms: 9-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805048ms: 4087-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805048ms: 9-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805048ms: 4087-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805048ms: 9-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805233ms: 4087-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805233ms: 9-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805233ms: 4087-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805233ms: 9-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): t=805233ms: 3530-byte response body for "https://petstore.octoperf.com/images/splash.gif" (RelFrameId=, Internal ID=448)
+Action.c(6): web_url("Catalog.action") highest severity level was "warning", 54816 body bytes, 4386 header bytes  	[MsgId: MMSG-26388]
+Action.c(16): Notify: Transaction "PET_STORE_01_ENTER_THE_STORE" ended with a "Pass" status (Duration: 1.3883 Wasted Time: 0.0002).	[MsgId: MMSG-16871]
+Action.c(18): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Action.c(38): Notify: Transaction "PET_STORE_03_SELECT_PRODUCT_ID" started.	[MsgId: MMSG-16999]
+Action.c(40): web_url("Catalog.action_3") started  	[MsgId: MMSG-26355]
+Action.c(40): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(40): Notify: Next row for parameter productID = 20 [table  = productID].	[MsgId: MMSG-13876]
+Action.c(40): Notify: Parameter Substitution: parameter "productID" =  "RP-SN-01"	[MsgId: MMSG-13992]
+Action.c(40): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(40): Notify: Parameter Substitution: parameter "categoryID" =  "REPTILES"	[MsgId: MMSG-13992]
+Action.c(40): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-17 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=11793A18 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(40): The request to server https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-SN-01" is done with headers:
+Action.c(40):     :method = GET
+Action.c(40):     :scheme = https
+Action.c(40):     :path = /actions/Catalog.action?viewProduct=&productId=RP-SN-01
+Action.c(40):     :authority = petstore.octoperf.com
+Action.c(40):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=RE
+Action.c(40):     PTILES
+Action.c(40):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(40):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(40):     Accept-Encoding = gzip, deflate, br
+Action.c(40):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(40):     Accept = */*
+Action.c(40):     cookie = JSESSIONID=59E6F8EBB15268B6EAB0C14903248DD9
+Action.c(40): t=806086ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-SN-01" (RelFrameId=1, Internal ID=475)
+Action.c(40):     HTTP/2.0 200\r\n
+Action.c(40):     Status: 200\r\n
+Action.c(40):     date: Fri, 02 Jun 2023 16:16:33 GMT\r\n
+Action.c(40):     content-type: text/html;charset=UTF-8\r\n
+Action.c(40):     content-length: 3664\r\n
+Action.c(40):     content-language: en\r\n
+Action.c(40):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(40):     \r\n
+Action.c(40): t=806087ms: 3664-byte response body for "https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-SN-01" (RelFrameId=1, Internal ID=475)
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(40):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(40):     \n
+Action.c(40):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(40):     \n
+Action.c(40):     <head>\n
+Action.c(40):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(40):     \tmedia="screen" />\n
+Action.c(40):     \n
+Action.c(40):     <meta name="generator"\n
+Action.c(40):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(40):     <title>JPetStore Demo</title>\n
+Action.c(40):     <meta content="text/html; charset=windows-1252"\n
+Action.c(40):     \thttp-equiv="Content-Type" />\n
+Action.c(40):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(40):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(40):     <meta http-equiv="expires" content="0" />\n
+Action.c(40):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(40):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(40):     </head>\n
+Action.c(40):     \n
+Action.c(40):     <body>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Header">\n
+Action.c(40):     \n
+Action.c(40):     <div id="Logo">\n
+Action.c(40):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(40):     f" /></a></div>\n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Menu">\n
+Action.c(40):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(40):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(40):      /> \n
+Action.c(40):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(40):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(40):     \thref="../help.html">?</a></div>\n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Search">\n
+Action.c(40):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(40):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(40):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(40):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="Ytk3DHSpsfmBtCG
+Action.c(40):     yLDpQprPzAKYkX18kJc48S2N7-fn646dMkHwR-s9A8Fnn5fH9q_5BpFvi1i0ZyG5aDO7_VXHsYYhaudo_2TiWWj7Te
+Action.c(40):     HU=" /><input type="hidden" name="__fp" value="vA5ALepmVn3qGwXi6HWPJi2T25ZsZvieDLdEv5m8-nb
+Action.c(40):     7hIstwwlxbMpWxNqXhjAr" /></div></form></div>\n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(40):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(40):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(40):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(40):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(40):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(40):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(40):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(40):     a></div>\n
+Action.c(40):     \n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Content">\n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     <div id="BackLink"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=REPTILES"
+Action.c(40):     >Return to REPTILES</a></div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Catalog">\n
+Action.c(40):     \n
+Action.c(40):     <h2>Rattlesnake</h2>\n
+Action.c(40):     \n
+Action.c(40):     <table>\n
+Action.c(40):     \t<tr>\n
+Action.c(40):     \t\t<th>Item ID</th>\n
+Action.c(40):     \t\t<th>Product ID</th>\n
+Action.c(40):     \t\t<th>Description</th>\n
+Action.c(40):     \t\t<th>List Price</th>\n
+Action.c(40):     \t\t<th>&nbsp;</th>\n
+Action.c(40):     \t</tr>\n
+Action.c(40):     \t\n
+Action.c(40):     \t\t<tr>\n
+Action.c(40):     \t\t\t<td><a href="/actions/Catalog.action?viewItem=&amp;itemId=EST-11">EST-11</a></td>\n
+Action.c(40):     \t\t\t<td>RP-SN-01</td>\n
+Action.c(40):     \t\t\t<td>Venomless  \n
+Action.c(40):     \t\t\t  Rattlesnake</td>\n
+Action.c(40):     \t\t\t<td>$18.50</td>\n
+Action.c(40):     \t\t\t<td><a href="/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-11" class="Bu
+Action.c(40):     tton">Add to Cart</a></td>\n
+Action.c(40):     \t\t</tr>\n
+Action.c(40):     \t\n
+Action.c(40):     \t\t<tr>\n
+Action.c(40):     \t\t\t<td><a href="/actions/Catalog.action?viewItem=&amp;itemId=EST-12">EST-12</a></td>\n
+Action.c(40):     \t\t\t<td>RP-SN-01</td>\n
+Action.c(40):     \t\t\t<td>Rattleless  \n
+Action.c(40):     \t\t\t  Rattlesnake</td>\n
+Action.c(40):     \t\t\t<td>$18.50</td>\n
+Action.c(40):     \t\t\t<td><a href="/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-12" class="Bu
+Action.c(40):     tton">Add to Cart</a></td>\n
+Action.c(40):     \t\t</tr>\n
+Action.c(40):     \t\n
+Action.c(40):     \t<tr>\n
+Action.c(40):     \t\t<td>\n
+Action.c(40):     \t\t</td>\n
+Action.c(40):     \t</tr>\n
+Action.c(40):     </table>\n
+Action.c(40):     \n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Footer">\n
+Action.c(40):     \n
+Action.c(40):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Banner"></div>\n
+Action.c(40):     \n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     </body>\n
+Action.c(40):     </html>\n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Downloading resource "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(40): Downloading resource "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(40): The request to server https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" is done with headers:
+Action.c(40):     :method = GET
+Action.c(40):     :scheme = https
+Action.c(40):     :path = /api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerel
+Action.c(40):     ease
+Action.c(40):     :authority = data-edge.smartscreen.microsoft.com
+Action.c(40):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(40):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(40):     Accept-Encoding = gzip, deflate, br
+Action.c(40):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(40):     Accept = */*
+Action.c(40): The request to server https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" is done with headers:
+Action.c(40):     :method = GET
+Action.c(40):     :scheme = https
+Action.c(40):     :path = /api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prereleas
+Action.c(40):     e
+Action.c(40):     :authority = data-edge.smartscreen.microsoft.com
+Action.c(40):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(40):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(40):     Accept-Encoding = gzip, deflate, br
+Action.c(40):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(40):     Accept = */*
+Action.c(40): Warning -27760: Request "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" failed  	[MsgId: MWAR-27760]
+Action.c(40): Warning -27760: Request "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" failed  	[MsgId: MWAR-27760]
+Action.c(40): web_url("Catalog.action_3") highest severity level was "warning", 3664 body bytes, 213 header bytes  	[MsgId: MMSG-26388]
+Action.c(53): Notify: Transaction "PET_STORE_03_SELECT_PRODUCT_ID" ended with a "Pass" status (Duration: 0.2557 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(55): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 45 (thread 2768), ended OK."	[MsgId: MMSG-10695]
+Action.c(73): Notify: Transaction "PET_STORE_05_ADD_TO_CART" started.	[MsgId: MMSG-16999]
+Action.c(75): web_url("Cart.action") started  	[MsgId: MMSG-26355]
+Action.c(75): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Next row for parameter itemID = 18 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(75): Notify: Parameter Substitution: parameter "itemID" =  "EST-26"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Next row for parameter itemID = 18 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(75): Notify: Parameter Substitution: parameter "itemID" =  "EST-26"	[MsgId: MMSG-13992]
+Action.c(75): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-16 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=12534728 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(75): The request to server https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-26" is done with headers:
+Action.c(75):     :method = GET
+Action.c(75):     :scheme = https
+Action.c(75):     :path = /actions/Cart.action?addItemToCart=&workingItemId=EST-26
+Action.c(75):     :authority = petstore.octoperf.com
+Action.c(75):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-26
+Action.c(75):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(75):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(75):     Accept-Encoding = gzip, deflate, br
+Action.c(75):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(75):     Accept = */*
+Action.c(75):     cookie = JSESSIONID=3482FB85E8D102D4BBE510B6429F2096
+Action.c(75): t=807327ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-26" (RelFrameId=1, Internal ID=432)
+Action.c(75):     HTTP/2.0 200\r\n
+Action.c(75):     Status: 200\r\n
+Action.c(75):     date: Fri, 02 Jun 2023 16:16:35 GMT\r\n
+Action.c(75):     content-type: text/html;charset=UTF-8\r\n
+Action.c(75):     content-length: 4204\r\n
+Action.c(75):     content-language: en\r\n
+Action.c(75):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(75):     \r\n
+Action.c(75): t=807328ms: 3959-byte response body for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-26" (RelFrameId=1, Internal ID=432)
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(75):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(75):     \n
+Action.c(75):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(75):     \n
+Action.c(75):     <head>\n
+Action.c(75):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(75):     \tmedia="screen" />\n
+Action.c(75):     \n
+Action.c(75):     <meta name="generator"\n
+Action.c(75):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(75):     <title>JPetStore Demo</title>\n
+Action.c(75):     <meta content="text/html; charset=windows-1252"\n
+Action.c(75):     \thttp-equiv="Content-Type" />\n
+Action.c(75):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(75):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(75):     <meta http-equiv="expires" content="0" />\n
+Action.c(75):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(75):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(75):     </head>\n
+Action.c(75):     \n
+Action.c(75):     <body>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Header">\n
+Action.c(75):     \n
+Action.c(75):     <div id="Logo">\n
+Action.c(75):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(75):     f" /></a></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Menu">\n
+Action.c(75):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(75):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(75):      /> \n
+Action.c(75):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(75):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(75):     \thref="../help.html">?</a></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Search">\n
+Action.c(75):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(75):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(75):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(75):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="2SQKP640Xxyme69
+Action.c(75):     CdH_SHVnZAT1cBb95tsvdJ66N9xvvKGfsOwzf0m6ldbDMLndj1kQyVotdjS_U8kXZfWZhCTluXjBMxjkJ" /><inpu
+Action.c(75):     t type="hidden" name="__fp" value="HtzUJK3iJWT3_hW_BcgeuhTLNPFrl_DBi8Qf6fDkezSoQVy4FTjd0um
+Action.c(75):     cmHVufaMP" /></div></form></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(75):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(75):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(75):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(75):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(75):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(75):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(75):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(75):     a></div>\n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Content">\n
+Action.c(75):     \n
+Action.c(75):     <div id="BackLink"><a href="/actions/Catalog.action">Return to Main Menu</a></div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Catalog">\n
+Action.c(75):     \n
+Action.c(75):     <div id="Cart">\n
+Action.c(75):     \n
+Action.c(75):     <h2>Shopping Cart</h2>\n
+Action.c(75):     <form method="post" action="/actions/Cart.action">\n
+Action.c(75):     \t<table>\n
+Action.c(75):     \t\t<tr>\n
+Action.c(75):     \t\t\t<th><b>Item ID</b></th>\n
+Action.c(75):     \t\t\t<th><b>Product ID</b></th>\n
+Action.c(75):     \t\t\t<th><b>Description</b></th>\n
+Action.c(75):     \t\t\t<th><b>In Stock?</b></th>\n
+Action.c(75):     \t\t\t<th><b>Quantity</b></th>\n
+Action.c(75):     \t\t\t<th><b>List Price</b></th>\n
+Action.c(75):     \t\t\t<th><b>Total Cost</b></th>\n
+Action.c(75):     \t\t\t<th>&nbsp;</th>\n
+Action.c(75):     \t\t</tr>\n
+Action.c(75):     \n
+Action.c(75):     \t\t\n
+Action.c(75):     \n
+Action.c(75):     \t\t\n
+Action.c(75):     \t\t\t<tr>\n
+Action.c(75):     \t\t\t\t<td><a href="/actions/Catalog.action?viewItem=&amp;itemId=EST-26">EST-26</a></td>\n
+Action.c(75):     \t\t\t\t<td>K9-CW-01</td>\n
+Action.c(75):     \t\t\t\t<td>Adult Male \n
+Action.c(75):     \t\t\t\t \n
+Action.c(75):     \t\t\t\t Chihuahua</td>\n
+Action.c(75):     \t\t\t\t<td>false</td>\n
+Action.c(75):     \t\t\t\t<td><input size="3" name="EST-26" type="text" value="1" /></td>\n
+Action.c(75):     \t\t\t\t<td>$125.50</td>\n
+Action.c(75):     \t\t\t\t<td>$125.50</td>\n
+Action.c(75):     \t\t\t\t<td><a href="/actions/Cart.action?removeItemFromCart=&amp;workingItemId=EST-26" cl
+Action.c(75):     ass="Button">Remove</a></td>\n
+Action.c(75):     \t\t\t</tr>\n
+Action.c(75):     \t\t\n
+Action.c(75):     \t\t<tr>\n
+Action.c(75):     \t\t\t<td colspan="7">Sub Total: $125.50 <input name="updateCartQuantities" type="submit" 
+Action.c(75):     value="Update Cart" /></td>\n
+Action.c(75):     \t\t\t<td>&nbsp;</td>\n
+Action.c(75):     \t\t</tr>\n
+Action.c(75):     \t</table>\n
+Action.c(75):     \n
+Action.c(75):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="ffzZmIw3_4oPXYa
+Action.c(75):     w6tzPt3sJH3fo__CBHqINeXImMSldBeNhdEBKpGB15xtLxYc4TI_7Gt9MUWwQ3uUJ1J2633QaYy5hrTAJ" /><inpu
+Action.c(75):     t type="hidden" name="__fp" value="Lvw6G330ViGAY3Qcbc6hnzT_SRxhAmjHlwh92c1vv3DjsFXZ2svjMgi
+Action.c(75):     39HP3Wams" /></div></form> \n
+Action.c(75):     \t<a href="/actions/Order.action?newOrderForm=" class="Button">Proceed to Checkout<
+Action.c(75): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): t=807334ms: 245-byte response body for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-26" (RelFrameId=1, Internal ID=432)
+Action.c(75):     /a>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="MyList">\n
+Action.c(75):       \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Separator">&nbsp;</div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Footer">\n
+Action.c(75):     \n
+Action.c(75):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Banner"></div>\n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     </body>\n
+Action.c(75):     </html>
+Action.c(75): web_url("Cart.action") highest severity level was "warning", 4204 body bytes, 213 header bytes  	[MsgId: MMSG-26388]
+Action.c(85): Notify: Transaction "PET_STORE_05_ADD_TO_CART" ended with a "Pass" status (Duration: 0.2194 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(87): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Action.c(73): Notify: Transaction "PET_STORE_05_ADD_TO_CART" started.	[MsgId: MMSG-16999]
+Action.c(75): web_url("Cart.action") started  	[MsgId: MMSG-26355]
+Action.c(75): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Next row for parameter itemID = 22 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(75): Notify: Parameter Substitution: parameter "itemID" =  "EST-13"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Next row for parameter itemID = 22 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(75): Notify: Parameter Substitution: parameter "itemID" =  "EST-13"	[MsgId: MMSG-13992]
+Action.c(75): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-20 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=10873A28 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(75): The request to server https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13" is done with headers:
+Action.c(75):     :method = GET
+Action.c(75):     :scheme = https
+Action.c(75):     :path = /actions/Cart.action?addItemToCart=&workingItemId=EST-13
+Action.c(75):     :authority = petstore.octoperf.com
+Action.c(75):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-13
+Action.c(75):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(75):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(75):     Accept-Encoding = gzip, deflate, br
+Action.c(75):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(75):     Accept = */*
+Action.c(75):     cookie = JSESSIONID=F86C8E411F1BBBBB25608268EF9CCA54
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 47 (thread 9328), ended OK."	[MsgId: MMSG-10695]
+Action.c(57): Notify: Transaction "PET_STORE_04_SELECT_ITEM_ID" started.	[MsgId: MMSG-16999]
+Action.c(59): web_url("Catalog.action_4") started  	[MsgId: MMSG-26355]
+Action.c(59): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(59): Notify: Next row for parameter itemID = 21 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(59): Notify: Parameter Substitution: parameter "itemID" =  "EST-12"	[MsgId: MMSG-13992]
+Action.c(59): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(59): Notify: Next row for parameter productID = 21 [table  = productID].	[MsgId: MMSG-13876]
+Action.c(59): Notify: Parameter Substitution: parameter "productID" =  "RP-SN-01"	[MsgId: MMSG-13992]
+Action.c(59): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-19 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=0E2C3A28 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(59): The request to server https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-12" is done with headers:
+Action.c(59):     :method = GET
+Action.c(59):     :scheme = https
+Action.c(59):     :path = /actions/Catalog.action?viewItem=&itemId=EST-12
+Action.c(59):     :authority = petstore.octoperf.com
+Action.c(59):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-S
+Action.c(59):     N-01
+Action.c(59):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(59):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(59):     Accept-Encoding = gzip, deflate, br
+Action.c(59):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(59):     Accept = */*
+Action.c(59):     cookie = JSESSIONID=E622FD82D1C3A83204986B3EB3BED5F9
+Action.c(75): t=807549ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13" (RelFrameId=1, Internal ID=528)
+Action.c(75):     HTTP/2.0 200\r\n
+Action.c(75):     Status: 200\r\n
+Action.c(75):     date: Fri, 02 Jun 2023 16:16:35 GMT\r\n
+Action.c(75):     content-type: text/html;charset=UTF-8\r\n
+Action.c(75):     content-length: 4199\r\n
+Action.c(75):     content-language: en\r\n
+Action.c(75):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(75):     \r\n
+Action.c(75): t=807549ms: 3959-byte response body for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13" (RelFrameId=1, Internal ID=528)
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(75):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(75):     \n
+Action.c(75):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(75):     \n
+Action.c(75):     <head>\n
+Action.c(75):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(75):     \tmedia="screen" />\n
+Action.c(75):     \n
+Action.c(75):     <meta name="generator"\n
+Action.c(75):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(75):     <title>JPetStore Demo</title>\n
+Action.c(75):     <meta content="text/html; charset=windows-1252"\n
+Action.c(75):     \thttp-equiv="Content-Type" />\n
+Action.c(75):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(75):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(75):     <meta http-equiv="expires" content="0" />\n
+Action.c(75):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(75):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(75):     </head>\n
+Action.c(75):     \n
+Action.c(75):     <body>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Header">\n
+Action.c(75):     \n
+Action.c(75):     <div id="Logo">\n
+Action.c(75):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(75):     f" /></a></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Menu">\n
+Action.c(75):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(75):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(75):      /> \n
+Action.c(75):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(75):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(75):     \thref="../help.html">?</a></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Search">\n
+Action.c(75):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(75):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(75):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(75):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="DkGTzaBmOYZOSDD
+Action.c(75):     Dg9PkfIMajzqlNrRD4fgeOPoxZk-fLsd7cx35c3iX4Yj7CoqwabP054YNwUekvcmCkAigh7w5dWAJ_iJa" /><inpu
+Action.c(75):     t type="hidden" name="__fp" value="o5cY_vWFl141xb4Vj-FwJ1AXA_efDIB0BmclN-CVyJfsgyA3Xj8dKSb
+Action.c(75):     dO3PomV8c" /></div></form></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(75):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(75):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(75):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(75):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(75):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(75):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(75):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(75):     a></div>\n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Content">\n
+Action.c(75):     \n
+Action.c(75):     <div id="BackLink"><a href="/actions/Catalog.action">Return to Main Menu</a></div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Catalog">\n
+Action.c(75):     \n
+Action.c(75):     <div id="Cart">\n
+Action.c(75):     \n
+Action.c(75):     <h2>Shopping Cart</h2>\n
+Action.c(75):     <form method="post" action="/actions/Cart.action">\n
+Action.c(75):     \t<table>\n
+Action.c(75):     \t\t<tr>\n
+Action.c(75):     \t\t\t<th><b>Item ID</b></th>\n
+Action.c(75):     \t\t\t<th><b>Product ID</b></th>\n
+Action.c(75):     \t\t\t<th><b>Description</b></th>\n
+Action.c(75):     \t\t\t<th><b>In Stock?</b></th>\n
+Action.c(75):     \t\t\t<th><b>Quantity</b></th>\n
+Action.c(75):     \t\t\t<th><b>List Price</b></th>\n
+Action.c(75):     \t\t\t<th><b>Total Cost</b></th>\n
+Action.c(75):     \t\t\t<th>&nbsp;</th>\n
+Action.c(75):     \t\t</tr>\n
+Action.c(75):     \n
+Action.c(75):     \t\t\n
+Action.c(75):     \n
+Action.c(75):     \t\t\n
+Action.c(75):     \t\t\t<tr>\n
+Action.c(75):     \t\t\t\t<td><a href="/actions/Catalog.action?viewItem=&amp;itemId=EST-13">EST-13</a></td>\n
+Action.c(75):     \t\t\t\t<td>RP-LI-02</td>\n
+Action.c(75):     \t\t\t\t<td>Green Adult \n
+Action.c(75):     \t\t\t\t \n
+Action.c(75):     \t\t\t\t Iguana</td>\n
+Action.c(75):     \t\t\t\t<td>false</td>\n
+Action.c(75):     \t\t\t\t<td><input size="3" name="EST-13" type="text" value="1" /></td>\n
+Action.c(75):     \t\t\t\t<td>$18.50</td>\n
+Action.c(75):     \t\t\t\t<td>$18.50</td>\n
+Action.c(75):     \t\t\t\t<td><a href="/actions/Cart.action?removeItemFromCart=&amp;workingItemId=EST-13" cl
+Action.c(75):     ass="Button">Remove</a></td>\n
+Action.c(75):     \t\t\t</tr>\n
+Action.c(75):     \t\t\n
+Action.c(75):     \t\t<tr>\n
+Action.c(75):     \t\t\t<td colspan="7">Sub Total: $18.50 <input name="updateCartQuantities" type="submit" v
+Action.c(75):     alue="Update Cart" /></td>\n
+Action.c(75):     \t\t\t<td>&nbsp;</td>\n
+Action.c(75):     \t\t</tr>\n
+Action.c(75):     \t</table>\n
+Action.c(75):     \n
+Action.c(75):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="xb_LboXkWYbLxMN
+Action.c(75):     xcXxXU4MTGvXLhb3TSFBVMPf2rpQISSlTzBvd9bINHr7_9QxF4ivvpcWpUsiginQgfX9JiRGVJiSATJut" /><inpu
+Action.c(75):     t type="hidden" name="__fp" value="jvvQXP9_sJm4sjxI5oJeG9qRo2lTMk8ZS3mVAjzR4Sf3apZ6MQMu2Ma
+Action.c(75):     l9ftwdl0c" /></div></form> \n
+Action.c(75):     \t<a href="/actions/Order.action?newOrderForm=" class="Button">Proceed to Checkout</a>\n
+Action.c(75):     <
+Action.c(75): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): t=807557ms: 240-byte response body for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-13" (RelFrameId=1, Internal ID=528)
+Action.c(75):     /div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="MyList">\n
+Action.c(75):       \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Separator">&nbsp;</div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Footer">\n
+Action.c(75):     \n
+Action.c(75):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Banner"></div>\n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     </body>\n
+Action.c(75):     </html>
+Action.c(75): web_url("Cart.action") highest severity level was "warning", 4199 body bytes, 213 header bytes  	[MsgId: MMSG-26388]
+Action.c(85): Notify: Transaction "PET_STORE_05_ADD_TO_CART" ended with a "Pass" status (Duration: 0.2207 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(87): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Action.c(59): t=807758ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-12" (RelFrameId=1, Internal ID=502)
+Action.c(59):     HTTP/2.0 200\r\n
+Action.c(59):     Status: 200\r\n
+Action.c(59):     date: Fri, 02 Jun 2023 16:16:35 GMT\r\n
+Action.c(59):     content-type: text/html;charset=UTF-8\r\n
+Action.c(59):     content-length: 3340\r\n
+Action.c(59):     content-language: en\r\n
+Action.c(59):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(59):     \r\n
+Action.c(59): t=807758ms: 3340-byte response body for "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-12" (RelFrameId=1, Internal ID=502)
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(59):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(59):     \n
+Action.c(59):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(59):     \n
+Action.c(59):     <head>\n
+Action.c(59):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(59):     \tmedia="screen" />\n
+Action.c(59):     \n
+Action.c(59):     <meta name="generator"\n
+Action.c(59):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(59):     <title>JPetStore Demo</title>\n
+Action.c(59):     <meta content="text/html; charset=windows-1252"\n
+Action.c(59):     \thttp-equiv="Content-Type" />\n
+Action.c(59):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(59):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(59):     <meta http-equiv="expires" content="0" />\n
+Action.c(59):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(59):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(59):     </head>\n
+Action.c(59):     \n
+Action.c(59):     <body>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Header">\n
+Action.c(59):     \n
+Action.c(59):     <div id="Logo">\n
+Action.c(59):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(59):     f" /></a></div>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Menu">\n
+Action.c(59):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(59):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(59):      /> \n
+Action.c(59):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(59):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(59):     \thref="../help.html">?</a></div>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Search">\n
+Action.c(59):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(59):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(59):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(59):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="HPYjQmoiBFps7vz
+Action.c(59):     NuOiGxYwPieRB0HkMKBXXVvqjaeXXENcXrK3OhIgu8W70Tmbgm0jCDSA3LqA7s3Am08eEMrbYYDz8DUPI" /><inpu
+Action.c(59):     t type="hidden" name="__fp" value="nCTrQM_dfNVBkzt5NnagttF3EBCUWe33MJF-Gdg_3mc2CPFPdQYsH1T
+Action.c(59):     V31hoNJyh" /></div></form></div>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(59):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(59):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(59):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(59):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(59):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(59):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(59):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(59):     a></div>\n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Content">\n
+Action.c(59):     \n
+Action.c(59):     <div id="BackLink"><a href="/actions/Catalog.action?viewProduct=&amp;productId=RP-SN-01">R
+Action.c(59):     eturn to RP-SN-01</a></div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Catalog">\n
+Action.c(59):     \n
+Action.c(59):     <table>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><image src="../images/snake1.gif">Doubles as a watch dog</td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><b> EST-12 </b></td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><b><font size="4"> Rattleless\n
+Action.c(59):     \t\t \n
+Action.c(59):     \t\t \n
+Action.c(59):     \t\tRattlesnake </font></b></td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td>Rattlesnake</td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td>\n
+Action.c(59):             Back ordered.\n
+Action.c(59):            </td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td>$18.50</td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><a href="/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-12" class="Butt
+Action.c(59):     on">Add to Cart</a></td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     </table>\n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Footer">\n
+Action.c(59):     \n
+Action.c(59):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Banner"></div>\n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     </body>\n
+Action.c(59):     </html>\n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Found resource "https://petstore.octoperf.com/images/snake1.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-12"  	[MsgId: MMSG-26659]
+Action.c(59): The request to server https://petstore.octoperf.com/images/snake1.gif" is done with headers:
+Action.c(59):     :method = GET
+Action.c(59):     :scheme = https
+Action.c(59):     :path = /images/snake1.gif
+Action.c(59):     :authority = petstore.octoperf.com
+Action.c(59):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-12
+Action.c(59):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(59):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(59):     Accept-Encoding = gzip, deflate, br
+Action.c(59):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(59):     Accept = */*
+Action.c(59):     cookie = JSESSIONID=E622FD82D1C3A83204986B3EB3BED5F9
+Action.c(59): t=807973ms: 277-byte response headers for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=503)
+Action.c(59):     HTTP/2.0 200\r\n
+Action.c(59):     Status: 200\r\n
+Action.c(59):     date: Fri, 02 Jun 2023 16:16:35 GMT\r\n
+Action.c(59):     content-type: image/gif\r\n
+Action.c(59):     content-length: 13078\r\n
+Action.c(59):     accept-ranges: bytes\r\n
+Action.c(59):     etag: W/"13078-1645112688000"\r\n
+Action.c(59):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(59):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(59):     \r\n
+Action.c(59): t=807974ms: 3895-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=503)
+Action.c(59): t=807975ms: 4087-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=503)
+Action.c(59): t=807975ms: 9-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=503)
+Action.c(59): t=808180ms: 4087-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=503)
+Action.c(59): t=808180ms: 9-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=503)
+Action.c(59): t=808181ms: 991-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=503)
+Action.c(59): web_url("Catalog.action_4") highest severity level was "warning", 16418 body bytes, 490 header bytes  	[MsgId: MMSG-26388]
+Action.c(69): Notify: Transaction "PET_STORE_04_SELECT_ITEM_ID" ended with a "Pass" status (Duration: 0.6366 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(71): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Action.c(20): Notify: Transaction "PET_STORE_02_SELECT_CATEGORY" started.	[MsgId: MMSG-16999]
+Action.c(22): web_url("Catalog.action_2") started  	[MsgId: MMSG-26355]
+Action.c(22): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(22): Notify: Parameter Substitution: parameter "categoryID" =  "DOGS"	[MsgId: MMSG-13992]
+Action.c(22): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(22): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-17 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=0CF73A18 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(22): The request to server https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS" is done with headers:
+Action.c(22):     :method = GET
+Action.c(22):     :scheme = https
+Action.c(22):     :path = /actions/Catalog.action?viewCategory=&categoryId=DOGS
+Action.c(22):     :authority = petstore.octoperf.com
+Action.c(22):     Referer = https://petstore.octoperf.com/actions/Catalog.action
+Action.c(22):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(22):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(22):     Accept-Encoding = gzip, deflate, br
+Action.c(22):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(22):     Accept = */*
+Action.c(22):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(22): t=808434ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS" (RelFrameId=1, Internal ID=449)
+Action.c(22):     HTTP/2.0 200\r\n
+Action.c(22):     Status: 200\r\n
+Action.c(22):     date: Fri, 02 Jun 2023 16:16:36 GMT\r\n
+Action.c(22):     content-type: text/html;charset=UTF-8\r\n
+Action.c(22):     content-length: 3741\r\n
+Action.c(22):     content-language: en\r\n
+Action.c(22):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(22):     \r\n
+Action.c(22): t=808434ms: 3741-byte response body for "https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS" (RelFrameId=1, Internal ID=449)
+Action.c(22):     \n
+Action.c(22):     \n
+Action.c(22):     \n
+Action.c(22):     \n
+Action.c(22):     \n
+Action.c(22):     \n
+Action.c(22):     \n
+Action.c(22):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(22):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(22):     \n
+Action.c(22):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(22):     \n
+Action.c(22):     <head>\n
+Action.c(22):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(22):     \tmedia="screen" />\n
+Action.c(22):     \n
+Action.c(22):     <meta name="generator"\n
+Action.c(22):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(22):     <title>JPetStore Demo</title>\n
+Action.c(22):     <meta content="text/html; charset=windows-1252"\n
+Action.c(22):     \thttp-equiv="Content-Type" />\n
+Action.c(22):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(22):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(22):     <meta http-equiv="expires" content="0" />\n
+Action.c(22):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(22):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(22):     </head>\n
+Action.c(22):     \n
+Action.c(22):     <body>\n
+Action.c(22):     \n
+Action.c(22):     <div id="Header">\n
+Action.c(22):     \n
+Action.c(22):     <div id="Logo">\n
+Action.c(22):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(22):     f" /></a></div>\n
+Action.c(22):     </div>\n
+Action.c(22):     \n
+Action.c(22):     <div id="Menu">\n
+Action.c(22):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(22):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(22):      /> \n
+Action.c(22):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(22):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(22):     \thref="../help.html">?</a></div>\n
+Action.c(22):     </div>\n
+Action.c(22):     \n
+Action.c(22):     <div id="Search">\n
+Action.c(22):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(22):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(22):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(22):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="mOL31bh05W_o13n
+Action.c(22):     ENJ_IeL8AkB38Jnz7NexHgIXsBC3hjdqDNnkg8HLlWXF9mW5NTuvc0Fm_yZ_vu8RG6qRURX7a33pmgoOlrEOXth6sU
+Action.c(22):     k8=" /><input type="hidden" name="__fp" value="kHXjYM8gDJoQtNhcIozDQLBxRhiVIR2Ib_Cjmy6FSP5
+Action.c(22):     5HFL6wjarCG9bn7-_OFLN" /></div></form></div>\n
+Action.c(22):     </div>\n
+Action.c(22):     \n
+Action.c(22):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(22):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(22):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(22):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(22):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(22):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(22):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(22):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(22):     a></div>\n
+Action.c(22):     \n
+Action.c(22):     </div>\n
+Action.c(22):     \n
+Action.c(22):     <div id="Content">\n
+Action.c(22):     \n
+Action.c(22):     <div id="BackLink"><a href="/actions/Catalog.action">Return to Main Menu</a></div>\n
+Action.c(22):     \n
+Action.c(22):     <div id="Catalog">\n
+Action.c(22):     \n
+Action.c(22):     <h2>Dogs</h2>\n
+Action.c(22):     \n
+Action.c(22):     <table>\n
+Action.c(22):     \t<tr>\n
+Action.c(22):     \t\t<th>Product ID</th>\n
+Action.c(22):     \t\t<th>Name</th>\n
+Action.c(22):     \t</tr>\n
+Action.c(22):     \t\n
+Action.c(22):     \t\t<tr>\n
+Action.c(22):     \t\t\t<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=K9-BD-01">K9-BD-01</
+Action.c(22):     a></td>\n
+Action.c(22):     \t\t\t<td>Bulldog</td>\n
+Action.c(22):     \t\t</tr>\n
+Action.c(22):     \t\n
+Action.c(22):     \t\t<tr>\n
+Action.c(22):     \t\t\t<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=K9-PO-02">K9-PO-02</
+Action.c(22):     a></td>\n
+Action.c(22):     \t\t\t<td>Poodle</td>\n
+Action.c(22):     \t\t</tr>\n
+Action.c(22):     \t\n
+Action.c(22):     \t\t<tr>\n
+Action.c(22):     \t\t\t<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=K9-DL-01">K9-DL-01</
+Action.c(22):     a></td>\n
+Action.c(22):     \t\t\t<td>Dalmation</td>\n
+Action.c(22):     \t\t</tr>\n
+Action.c(22):     \t\n
+Action.c(22):     \t\t<tr>\n
+Action.c(22):     \t\t\t<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=K9-RT-01">K9-RT-01</
+Action.c(22):     a></td>\n
+Action.c(22):     \t\t\t<td>Golden Retriever</td>\n
+Action.c(22):     \t\t</tr>\n
+Action.c(22):     \t\n
+Action.c(22):     \t\t<tr>\n
+Action.c(22):     \t\t\t<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=K9-RT-02">K9-RT-02</
+Action.c(22):     a></td>\n
+Action.c(22):     \t\t\t<td>Labrador Retriever</td>\n
+Action.c(22):     \t\t</tr>\n
+Action.c(22):     \t\n
+Action.c(22):     \t\t<tr>\n
+Action.c(22):     \t\t\t<td><a href="/actions/Catalog.action?viewProduct=&amp;productId=K9-CW-01">K9-CW-01</
+Action.c(22):     a></td>\n
+Action.c(22):     \t\t\t<td>Chihuahua</td>\n
+Action.c(22):     \t\t</tr>\n
+Action.c(22):     \t\n
+Action.c(22):     </table>\n
+Action.c(22):     \n
+Action.c(22):     </div>\n
+Action.c(22):     \n
+Action.c(22):     \n
+Action.c(22):     </div>\n
+Action.c(22):     \n
+Action.c(22):     <div id="Footer">\n
+Action.c(22):     \n
+Action.c(22):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(22):     </div>\n
+Action.c(22):     \n
+Action.c(22):     <div id="Banner"></div>\n
+Action.c(22):     \n
+Action.c(22):     </div>\n
+Action.c(22):     \n
+Action.c(22):     </body>\n
+Action.c(22):     </html>\n
+Action.c(22):     \n
+Action.c(22):     \n
+Action.c(22): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Downloading resource "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v7/Condition/D200PartlySunnyV2.svg" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(22): The request to server https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v7/Condition/D200PartlySunnyV2.svg" is done with headers:
+Action.c(22):     :method = GET
+Action.c(22):     :scheme = https
+Action.c(22):     :path = /weathermapdata/1/static/weather/Icons/taskbar_v7/Condition/D200PartlySunnyV2.svg
+Action.c(22):     :authority = assets.msn.com
+Action.c(22):     Referer = https://ntp.msn.com/
+Action.c(22):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(22):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(22):     Accept-Encoding = gzip, deflate, br
+Action.c(22):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(22):     Accept = */*
+Action.c(22): t=808456ms: 1029-byte response headers for "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v7/Condition/D200PartlySunnyV2.svg" (RelFrameId=, Internal ID=450)
+Action.c(22):     HTTP/2.0 200\r\n
+Action.c(22):     Status: 200\r\n
+Action.c(22):     content-type: image/svg+xml\r\n
+Action.c(22):     content-md5: 2/TKWz8vbCV7EKhKgWUcJQ==\r\n
+Action.c(22):     last-modified: Tue, 25 Apr 2023 08:53:12 GMT\r\n
+Action.c(22):     etag: 0x8DB456A808088FF\r\n
+Action.c(22):     server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0\r\n
+Action.c(22):     x-ms-request-id: cbe8084c-201e-006b-59fb-78a101000000\r\n
+Action.c(22):     x-ms-version: 2009-09-19\r\n
+Action.c(22):     x-ms-lease-status: unlocked\r\n
+Action.c(22):     x-ms-blob-type: BlockBlob\r\n
+Action.c(22):     access-control-expose-headers: x-ms-request-id,Server,x-ms-version,Content-Type,Last-Modif
+Action.c(22):     ied,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encodin
+Action.c(22):     g\r\n
+Action.c(22):     access-control-allow-origin: *\r\n
+Action.c(22):     content-encoding: gzip\r\n
+Action.c(22):     content-length: 1259\r\n
+Action.c(22):     expires: Fri, 23 Jun 2023 11:28:21 GMT\r\n
+Action.c(22):     date: Fri, 02 Jun 2023 16:16:36 GMT\r\n
+Action.c(22):     akamai-request-bc: [a=201.6.49.86,b=236305158,c=g,n=BR_SP_SAOPAULO,o=28573]\r\n
+Action.c(22):     server-timing: clientrtt; dur=2, clienttt; dur=, origin; dur=0 , cdntime; dur=0\r\n
+Action.c(22):     akamai-cache-status: Hit from child\r\n
+Action.c(22):     akamai-server-ip: 201.6.49.86\r\n
+Action.c(22):     akamai-request-id: e15bb06\r\n
+Action.c(22):     cache-control: public, max-age=2592000\r\n
+Action.c(22):     timing-allow-origin: *\r\n
+Action.c(22):     vary: Origin\r\n
+Action.c(22):     \r\n
+Action.c(22): t=808458ms: 1259-byte ENCODED response body received for "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v7/Condition/D200PartlySunnyV2.svg" (RelFrameId=, Internal ID=450)
+Action.c(22): t=808458ms: 6362-byte DECODED response body for "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v7/Condition/D200PartlySunnyV2.svg" (RelFrameId=, Internal ID=450)
+Action.c(22): web_url("Catalog.action_2") highest severity level was "warning", 5000 body bytes, 1242 header bytes  	[MsgId: MMSG-26388]
+Action.c(34): Notify: Transaction "PET_STORE_02_SELECT_CATEGORY" ended with a "Pass" status (Duration: 0.2236 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(36): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Action.c(57): Notify: Transaction "PET_STORE_04_SELECT_ITEM_ID" started.	[MsgId: MMSG-16999]
+Action.c(59): web_url("Catalog.action_4") started  	[MsgId: MMSG-26355]
+Action.c(59): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(59): Notify: Next row for parameter itemID = 20 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(59): Notify: Parameter Substitution: parameter "itemID" =  "EST-11"	[MsgId: MMSG-13992]
+Action.c(59): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(59): Notify: Next row for parameter productID = 20 [table  = productID].	[MsgId: MMSG-13876]
+Action.c(59): Notify: Parameter Substitution: parameter "productID" =  "RP-SN-01"	[MsgId: MMSG-13992]
+Action.c(59): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-18 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=11793A18 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(59): The request to server https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-11" is done with headers:
+Action.c(59):     :method = GET
+Action.c(59):     :scheme = https
+Action.c(59):     :path = /actions/Catalog.action?viewItem=&itemId=EST-11
+Action.c(59):     :authority = petstore.octoperf.com
+Action.c(59):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=RP-S
+Action.c(59):     N-01
+Action.c(59):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(59):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(59):     Accept-Encoding = gzip, deflate, br
+Action.c(59):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(59):     Accept = */*
+Action.c(59):     cookie = JSESSIONID=59E6F8EBB15268B6EAB0C14903248DD9
+Action.c(59): t=809342ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-11" (RelFrameId=1, Internal ID=478)
+Action.c(59):     HTTP/2.0 200\r\n
+Action.c(59):     Status: 200\r\n
+Action.c(59):     date: Fri, 02 Jun 2023 16:16:37 GMT\r\n
+Action.c(59):     content-type: text/html;charset=UTF-8\r\n
+Action.c(59):     content-length: 3339\r\n
+Action.c(59):     content-language: en\r\n
+Action.c(59):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(59):     \r\n
+Action.c(59): t=809342ms: 3339-byte response body for "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-11" (RelFrameId=1, Internal ID=478)
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(59):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(59):     \n
+Action.c(59):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(59):     \n
+Action.c(59):     <head>\n
+Action.c(59):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(59):     \tmedia="screen" />\n
+Action.c(59):     \n
+Action.c(59):     <meta name="generator"\n
+Action.c(59):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(59):     <title>JPetStore Demo</title>\n
+Action.c(59):     <meta content="text/html; charset=windows-1252"\n
+Action.c(59):     \thttp-equiv="Content-Type" />\n
+Action.c(59):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(59):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(59):     <meta http-equiv="expires" content="0" />\n
+Action.c(59):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(59):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(59):     </head>\n
+Action.c(59):     \n
+Action.c(59):     <body>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Header">\n
+Action.c(59):     \n
+Action.c(59):     <div id="Logo">\n
+Action.c(59):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(59):     f" /></a></div>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Menu">\n
+Action.c(59):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(59):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(59):      /> \n
+Action.c(59):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(59):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(59):     \thref="../help.html">?</a></div>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Search">\n
+Action.c(59):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(59):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(59):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(59):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="KGvXtD4C2I-aV5Z
+Action.c(59):     dAsMPWCsd8bwlFNmJ4OhbkOUOfhwC1HdjWmN5YovsskVxXpqAAvPq7h-O4XV27gYWcb8PlW7r1abqbHRh" /><inpu
+Action.c(59):     t type="hidden" name="__fp" value="-_1U8d5jGOItdncZKRLO0xNik3yThxi6Z7_aPtKcE71pqD80ONC97d1
+Action.c(59):     S80aSWBLj" /></div></form></div>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(59):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(59):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(59):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(59):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(59):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(59):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(59):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(59):     a></div>\n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Content">\n
+Action.c(59):     \n
+Action.c(59):     <div id="BackLink"><a href="/actions/Catalog.action?viewProduct=&amp;productId=RP-SN-01">R
+Action.c(59):     eturn to RP-SN-01</a></div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Catalog">\n
+Action.c(59):     \n
+Action.c(59):     <table>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><image src="../images/snake1.gif">Doubles as a watch dog</td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><b> EST-11 </b></td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><b><font size="4"> Venomless\n
+Action.c(59):     \t\t \n
+Action.c(59):     \t\t \n
+Action.c(59):     \t\tRattlesnake </font></b></td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td>Rattlesnake</td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td>\n
+Action.c(59):             Back ordered.\n
+Action.c(59):            </td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td>$18.50</td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><a href="/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-11" class="Butt
+Action.c(59):     on">Add to Cart</a></td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     </table>\n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Footer">\n
+Action.c(59):     \n
+Action.c(59):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Banner"></div>\n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     </body>\n
+Action.c(59):     </html>\n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Found resource "https://petstore.octoperf.com/images/snake1.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-11"  	[MsgId: MMSG-26659]
+Action.c(59): The request to server https://petstore.octoperf.com/images/snake1.gif" is done with headers:
+Action.c(59):     :method = GET
+Action.c(59):     :scheme = https
+Action.c(59):     :path = /images/snake1.gif
+Action.c(59):     :authority = petstore.octoperf.com
+Action.c(59):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-11
+Action.c(59):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(59):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(59):     Accept-Encoding = gzip, deflate, br
+Action.c(59):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(59):     Accept = */*
+Action.c(59):     cookie = JSESSIONID=59E6F8EBB15268B6EAB0C14903248DD9
+Action.c(59): t=809560ms: 277-byte response headers for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=479)
+Action.c(59):     HTTP/2.0 200\r\n
+Action.c(59):     Status: 200\r\n
+Action.c(59):     date: Fri, 02 Jun 2023 16:16:37 GMT\r\n
+Action.c(59):     content-type: image/gif\r\n
+Action.c(59):     content-length: 13078\r\n
+Action.c(59):     accept-ranges: bytes\r\n
+Action.c(59):     etag: W/"13078-1645112688000"\r\n
+Action.c(59):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(59):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(59):     \r\n
+Action.c(59): t=809560ms: 3895-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=479)
+Action.c(59): t=809561ms: 4087-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=479)
+Action.c(59): t=809561ms: 9-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=479)
+Action.c(59): t=809769ms: 4087-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=479)
+Action.c(59): t=809769ms: 9-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=479)
+Action.c(59): t=809769ms: 991-byte response body for "https://petstore.octoperf.com/images/snake1.gif" (RelFrameId=, Internal ID=479)
+Action.c(59): web_url("Catalog.action_4") highest severity level was "warning", 16417 body bytes, 490 header bytes  	[MsgId: MMSG-26388]
+Action.c(69): Notify: Transaction "PET_STORE_04_SELECT_ITEM_ID" ended with a "Pass" status (Duration: 0.6411 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(71): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 49 (thread 536), ended OK."	[MsgId: MMSG-10695]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 42 (thread 6620), ended OK."	[MsgId: MMSG-10695]
+Action.c(73): Notify: Transaction "PET_STORE_05_ADD_TO_CART" started.	[MsgId: MMSG-16999]
+Action.c(75): web_url("Cart.action") started  	[MsgId: MMSG-26355]
+Action.c(75): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Next row for parameter itemID = 21 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(75): Notify: Parameter Substitution: parameter "itemID" =  "EST-12"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Next row for parameter itemID = 21 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(75): Notify: Parameter Substitution: parameter "itemID" =  "EST-12"	[MsgId: MMSG-13992]
+Action.c(75): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-19 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=0E2C3A28 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(75): The request to server https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-12" is done with headers:
+Action.c(75):     :method = GET
+Action.c(75):     :scheme = https
+Action.c(75):     :path = /actions/Cart.action?addItemToCart=&workingItemId=EST-12
+Action.c(75):     :authority = petstore.octoperf.com
+Action.c(75):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-12
+Action.c(75):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(75):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(75):     Accept-Encoding = gzip, deflate, br
+Action.c(75):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(75):     Accept = */*
+Action.c(75):     cookie = JSESSIONID=E622FD82D1C3A83204986B3EB3BED5F9
+Action.c(75): t=811394ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-12" (RelFrameId=1, Internal ID=504)
+Action.c(75):     HTTP/2.0 200\r\n
+Action.c(75):     Status: 200\r\n
+Action.c(75):     date: Fri, 02 Jun 2023 16:16:39 GMT\r\n
+Action.c(75):     content-type: text/html;charset=UTF-8\r\n
+Action.c(75):     content-length: 4203\r\n
+Action.c(75):     content-language: en\r\n
+Action.c(75):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(75):     \r\n
+Action.c(75): t=811395ms: 3959-byte response body for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-12" (RelFrameId=1, Internal ID=504)
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(75):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(75):     \n
+Action.c(75):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(75):     \n
+Action.c(75):     <head>\n
+Action.c(75):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(75):     \tmedia="screen" />\n
+Action.c(75):     \n
+Action.c(75):     <meta name="generator"\n
+Action.c(75):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(75):     <title>JPetStore Demo</title>\n
+Action.c(75):     <meta content="text/html; charset=windows-1252"\n
+Action.c(75):     \thttp-equiv="Content-Type" />\n
+Action.c(75):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(75):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(75):     <meta http-equiv="expires" content="0" />\n
+Action.c(75):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(75):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(75):     </head>\n
+Action.c(75):     \n
+Action.c(75):     <body>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Header">\n
+Action.c(75):     \n
+Action.c(75):     <div id="Logo">\n
+Action.c(75):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(75):     f" /></a></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Menu">\n
+Action.c(75):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(75):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(75):      /> \n
+Action.c(75):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(75):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(75):     \thref="../help.html">?</a></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Search">\n
+Action.c(75):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(75):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(75):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(75):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="PuvyDA-OlQ45wyj
+Action.c(75):     Ygz6OXjG4np2KSGL7f-SGf5798btTuOfBGJ1ITkC0FC_GqIYeID008GR443_OELEkch-MFb-2qxT1ZgHp" /><inpu
+Action.c(75):     t type="hidden" name="__fp" value="vD0pqKQH1srNGqwTUftqpQWJq1lPvZDVMVGOffkX0vgNVY4yfGtOzZD
+Action.c(75):     6-tAtiFfr" /></div></form></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(75):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(75):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(75):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(75):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(75):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(75):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(75):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(75):     a></div>\n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Content">\n
+Action.c(75):     \n
+Action.c(75):     <div id="BackLink"><a href="/actions/Catalog.action">Return to Main Menu</a></div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Catalog">\n
+Action.c(75):     \n
+Action.c(75):     <div id="Cart">\n
+Action.c(75):     \n
+Action.c(75):     <h2>Shopping Cart</h2>\n
+Action.c(75):     <form method="post" action="/actions/Cart.action">\n
+Action.c(75):     \t<table>\n
+Action.c(75):     \t\t<tr>\n
+Action.c(75):     \t\t\t<th><b>Item ID</b></th>\n
+Action.c(75):     \t\t\t<th><b>Product ID</b></th>\n
+Action.c(75):     \t\t\t<th><b>Description</b></th>\n
+Action.c(75):     \t\t\t<th><b>In Stock?</b></th>\n
+Action.c(75):     \t\t\t<th><b>Quantity</b></th>\n
+Action.c(75):     \t\t\t<th><b>List Price</b></th>\n
+Action.c(75):     \t\t\t<th><b>Total Cost</b></th>\n
+Action.c(75):     \t\t\t<th>&nbsp;</th>\n
+Action.c(75):     \t\t</tr>\n
+Action.c(75):     \n
+Action.c(75):     \t\t\n
+Action.c(75):     \n
+Action.c(75):     \t\t\n
+Action.c(75):     \t\t\t<tr>\n
+Action.c(75):     \t\t\t\t<td><a href="/actions/Catalog.action?viewItem=&amp;itemId=EST-12">EST-12</a></td>\n
+Action.c(75):     \t\t\t\t<td>RP-SN-01</td>\n
+Action.c(75):     \t\t\t\t<td>Rattleless \n
+Action.c(75):     \t\t\t\t \n
+Action.c(75):     \t\t\t\t Rattlesnake</td>\n
+Action.c(75):     \t\t\t\t<td>false</td>\n
+Action.c(75):     \t\t\t\t<td><input size="3" name="EST-12" type="text" value="1" /></td>\n
+Action.c(75):     \t\t\t\t<td>$18.50</td>\n
+Action.c(75):     \t\t\t\t<td>$18.50</td>\n
+Action.c(75):     \t\t\t\t<td><a href="/actions/Cart.action?removeItemFromCart=&amp;workingItemId=EST-12" cl
+Action.c(75):     ass="Button">Remove</a></td>\n
+Action.c(75):     \t\t\t</tr>\n
+Action.c(75):     \t\t\n
+Action.c(75):     \t\t<tr>\n
+Action.c(75):     \t\t\t<td colspan="7">Sub Total: $18.50 <input name="updateCartQuantities" type="submit" v
+Action.c(75):     alue="Update Cart" /></td>\n
+Action.c(75):     \t\t\t<td>&nbsp;</td>\n
+Action.c(75):     \t\t</tr>\n
+Action.c(75):     \t</table>\n
+Action.c(75):     \n
+Action.c(75):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="9oqO252n8v7wKMQ
+Action.c(75):     y8esEehp8gIxcA-tds7dUWrj5zAOX8QT86Y6ycSvMF3auIg8pfbCOZUz_CvGS6x9vN0vSadKYMMlGgqoM" /><inpu
+Action.c(75):     t type="hidden" name="__fp" value="geBELphjncrLP4s8k-qEH6aLZgQnmgOOpKFlGz0Pi87QV9IXpOT2CRV
+Action.c(75):     qqH3O02RH" /></div></form> \n
+Action.c(75):     \t<a href="/actions/Order.action?newOrderForm=" class="Button">Proceed to Checkout</
+Action.c(75): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): t=811402ms: 244-byte response body for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-12" (RelFrameId=1, Internal ID=504)
+Action.c(75):     a>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="MyList">\n
+Action.c(75):       \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Separator">&nbsp;</div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Footer">\n
+Action.c(75):     \n
+Action.c(75):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Banner"></div>\n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     </body>\n
+Action.c(75):     </html>
+Action.c(75): web_url("Cart.action") highest severity level was "warning", 4203 body bytes, 213 header bytes  	[MsgId: MMSG-26388]
+Action.c(85): Notify: Transaction "PET_STORE_05_ADD_TO_CART" ended with a "Pass" status (Duration: 0.2215 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(87): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Action.c(38): Notify: Transaction "PET_STORE_03_SELECT_PRODUCT_ID" started.	[MsgId: MMSG-16999]
+Action.c(40): web_url("Catalog.action_3") started  	[MsgId: MMSG-26355]
+Action.c(40): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(40): Notify: Next row for parameter productID = 19 [table  = productID].	[MsgId: MMSG-13876]
+Action.c(40): Notify: Parameter Substitution: parameter "productID" =  "K9-CW-01"	[MsgId: MMSG-13992]
+Action.c(40): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(40): Notify: Parameter Substitution: parameter "categoryID" =  "DOGS"	[MsgId: MMSG-13992]
+Action.c(40): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-16 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=0CF73A18 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(40): The request to server https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-CW-01" is done with headers:
+Action.c(40):     :method = GET
+Action.c(40):     :scheme = https
+Action.c(40):     :path = /actions/Catalog.action?viewProduct=&productId=K9-CW-01
+Action.c(40):     :authority = petstore.octoperf.com
+Action.c(40):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DO
+Action.c(40):     GS
+Action.c(40):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(40):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(40):     Accept-Encoding = gzip, deflate, br
+Action.c(40):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(40):     Accept = */*
+Action.c(40):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(40): t=811669ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-CW-01" (RelFrameId=1, Internal ID=451)
+Action.c(40):     HTTP/2.0 200\r\n
+Action.c(40):     Status: 200\r\n
+Action.c(40):     date: Fri, 02 Jun 2023 16:16:39 GMT\r\n
+Action.c(40):     content-type: text/html;charset=UTF-8\r\n
+Action.c(40):     content-length: 3655\r\n
+Action.c(40):     content-language: en\r\n
+Action.c(40):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(40):     \r\n
+Action.c(40): t=811670ms: 3655-byte response body for "https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-CW-01" (RelFrameId=1, Internal ID=451)
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(40):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(40):     \n
+Action.c(40):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(40):     \n
+Action.c(40):     <head>\n
+Action.c(40):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(40):     \tmedia="screen" />\n
+Action.c(40):     \n
+Action.c(40):     <meta name="generator"\n
+Action.c(40):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(40):     <title>JPetStore Demo</title>\n
+Action.c(40):     <meta content="text/html; charset=windows-1252"\n
+Action.c(40):     \thttp-equiv="Content-Type" />\n
+Action.c(40):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(40):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(40):     <meta http-equiv="expires" content="0" />\n
+Action.c(40):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(40):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(40):     </head>\n
+Action.c(40):     \n
+Action.c(40):     <body>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Header">\n
+Action.c(40):     \n
+Action.c(40):     <div id="Logo">\n
+Action.c(40):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(40):     f" /></a></div>\n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Menu">\n
+Action.c(40):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(40):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(40):      /> \n
+Action.c(40):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(40):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(40):     \thref="../help.html">?</a></div>\n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Search">\n
+Action.c(40):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(40):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(40):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(40):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="HJNPb7bq3O3YBm5
+Action.c(40):     2LdO2D3NV-IDefnOZovg3D6gwX3V7zLUmPmp1ZYqjUJUtTNoMemOwireiHFjf_2CKTcc3RFnhp5u2pUm4kFqSPGoAW
+Action.c(40):     iQ=" /><input type="hidden" name="__fp" value="QtaOyt8pRmG8nnS5Bue4VADnRRZ-zDqj6j5zwoR1cbF
+Action.c(40):     wiNsa-R4sJQY_3AUgLi-O" /></div></form></div>\n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(40):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(40):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(40):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(40):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(40):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(40):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(40):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(40):     a></div>\n
+Action.c(40):     \n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Content">\n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     <div id="BackLink"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=DOGS">Ret
+Action.c(40):     urn to DOGS</a></div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Catalog">\n
+Action.c(40):     \n
+Action.c(40):     <h2>Chihuahua</h2>\n
+Action.c(40):     \n
+Action.c(40):     <table>\n
+Action.c(40):     \t<tr>\n
+Action.c(40):     \t\t<th>Item ID</th>\n
+Action.c(40):     \t\t<th>Product ID</th>\n
+Action.c(40):     \t\t<th>Description</th>\n
+Action.c(40):     \t\t<th>List Price</th>\n
+Action.c(40):     \t\t<th>&nbsp;</th>\n
+Action.c(40):     \t</tr>\n
+Action.c(40):     \t\n
+Action.c(40):     \t\t<tr>\n
+Action.c(40):     \t\t\t<td><a href="/actions/Catalog.action?viewItem=&amp;itemId=EST-26">EST-26</a></td>\n
+Action.c(40):     \t\t\t<td>K9-CW-01</td>\n
+Action.c(40):     \t\t\t<td>Adult Male  \n
+Action.c(40):     \t\t\t  Chihuahua</td>\n
+Action.c(40):     \t\t\t<td>$125.50</td>\n
+Action.c(40):     \t\t\t<td><a href="/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-26" class="Bu
+Action.c(40):     tton">Add to Cart</a></td>\n
+Action.c(40):     \t\t</tr>\n
+Action.c(40):     \t\n
+Action.c(40):     \t\t<tr>\n
+Action.c(40):     \t\t\t<td><a href="/actions/Catalog.action?viewItem=&amp;itemId=EST-27">EST-27</a></td>\n
+Action.c(40):     \t\t\t<td>K9-CW-01</td>\n
+Action.c(40):     \t\t\t<td>Adult Female  \n
+Action.c(40):     \t\t\t  Chihuahua</td>\n
+Action.c(40):     \t\t\t<td>$155.29</td>\n
+Action.c(40):     \t\t\t<td><a href="/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-27" class="Bu
+Action.c(40):     tton">Add to Cart</a></td>\n
+Action.c(40):     \t\t</tr>\n
+Action.c(40):     \t\n
+Action.c(40):     \t<tr>\n
+Action.c(40):     \t\t<td>\n
+Action.c(40):     \t\t</td>\n
+Action.c(40):     \t</tr>\n
+Action.c(40):     </table>\n
+Action.c(40):     \n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Footer">\n
+Action.c(40):     \n
+Action.c(40):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     <div id="Banner"></div>\n
+Action.c(40):     \n
+Action.c(40):     </div>\n
+Action.c(40):     \n
+Action.c(40):     </body>\n
+Action.c(40):     </html>\n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40):     \n
+Action.c(40): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Downloading resource "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(40): Downloading resource "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(40): The request to server https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" is done with headers:
+Action.c(40):     :method = GET
+Action.c(40):     :scheme = https
+Action.c(40):     :path = /api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerel
+Action.c(40):     ease
+Action.c(40):     :authority = data-edge.smartscreen.microsoft.com
+Action.c(40):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(40):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(40):     Accept-Encoding = gzip, deflate, br
+Action.c(40):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(40):     Accept = */*
+Action.c(40): The request to server https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" is done with headers:
+Action.c(40):     :method = GET
+Action.c(40):     :scheme = https
+Action.c(40):     :path = /api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prereleas
+Action.c(40):     e
+Action.c(40):     :authority = data-edge.smartscreen.microsoft.com
+Action.c(40):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(40):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(40):     Accept-Encoding = gzip, deflate, br
+Action.c(40):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(40):     Accept = */*
+Action.c(40): Warning -27760: Request "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" failed  	[MsgId: MWAR-27760]
+Action.c(40): Warning -27760: Request "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" failed  	[MsgId: MWAR-27760]
+Action.c(40): web_url("Catalog.action_3") highest severity level was "warning", 3655 body bytes, 213 header bytes  	[MsgId: MMSG-26388]
+Action.c(53): Notify: Transaction "PET_STORE_03_SELECT_PRODUCT_ID" ended with a "Pass" status (Duration: 0.2615 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(55): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Action.c(73): Notify: Transaction "PET_STORE_05_ADD_TO_CART" started.	[MsgId: MMSG-16999]
+Action.c(75): web_url("Cart.action") started  	[MsgId: MMSG-26355]
+Action.c(75): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Next row for parameter itemID = 20 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(75): Notify: Parameter Substitution: parameter "itemID" =  "EST-11"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Next row for parameter itemID = 20 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(75): Notify: Parameter Substitution: parameter "itemID" =  "EST-11"	[MsgId: MMSG-13992]
+Action.c(75): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-18 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=11793A18 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(75): The request to server https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-11" is done with headers:
+Action.c(75):     :method = GET
+Action.c(75):     :scheme = https
+Action.c(75):     :path = /actions/Cart.action?addItemToCart=&workingItemId=EST-11
+Action.c(75):     :authority = petstore.octoperf.com
+Action.c(75):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-11
+Action.c(75):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(75):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(75):     Accept-Encoding = gzip, deflate, br
+Action.c(75):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(75):     Accept = */*
+Action.c(75):     cookie = JSESSIONID=59E6F8EBB15268B6EAB0C14903248DD9
+Action.c(75): t=812982ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-11" (RelFrameId=1, Internal ID=480)
+Action.c(75):     HTTP/2.0 200\r\n
+Action.c(75):     Status: 200\r\n
+Action.c(75):     date: Fri, 02 Jun 2023 16:16:40 GMT\r\n
+Action.c(75):     content-type: text/html;charset=UTF-8\r\n
+Action.c(75):     content-length: 4202\r\n
+Action.c(75):     content-language: en\r\n
+Action.c(75):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(75):     \r\n
+Action.c(75): t=812983ms: 3959-byte response body for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-11" (RelFrameId=1, Internal ID=480)
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(75):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(75):     \n
+Action.c(75):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(75):     \n
+Action.c(75):     <head>\n
+Action.c(75):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(75):     \tmedia="screen" />\n
+Action.c(75):     \n
+Action.c(75):     <meta name="generator"\n
+Action.c(75):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(75):     <title>JPetStore Demo</title>\n
+Action.c(75):     <meta content="text/html; charset=windows-1252"\n
+Action.c(75):     \thttp-equiv="Content-Type" />\n
+Action.c(75):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(75):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(75):     <meta http-equiv="expires" content="0" />\n
+Action.c(75):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(75):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(75):     </head>\n
+Action.c(75):     \n
+Action.c(75):     <body>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Header">\n
+Action.c(75):     \n
+Action.c(75):     <div id="Logo">\n
+Action.c(75):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(75):     f" /></a></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Menu">\n
+Action.c(75):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(75):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(75):      /> \n
+Action.c(75):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(75):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(75):     \thref="../help.html">?</a></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Search">\n
+Action.c(75):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(75):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(75):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(75):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="ILRKN1N0PSBKgTN
+Action.c(75):     2utJ2oJ6dQg0NFAh7iHMXUGBdCsyp7c5DEEtS4cmURm5mqzmcNTmULRjLDDmcI-kl9wCuWJIsPxuoRh5L" /><inpu
+Action.c(75):     t type="hidden" name="__fp" value="qEtczR5AxZz1gKJiT8xzbW6Sl3ioqvxpmnN-8fP1I1FSKclSgDtLY-v
+Action.c(75):     wERuylMex" /></div></form></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(75):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(75):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(75):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(75):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(75):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(75):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(75):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(75):     a></div>\n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Content">\n
+Action.c(75):     \n
+Action.c(75):     <div id="BackLink"><a href="/actions/Catalog.action">Return to Main Menu</a></div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Catalog">\n
+Action.c(75):     \n
+Action.c(75):     <div id="Cart">\n
+Action.c(75):     \n
+Action.c(75):     <h2>Shopping Cart</h2>\n
+Action.c(75):     <form method="post" action="/actions/Cart.action">\n
+Action.c(75):     \t<table>\n
+Action.c(75):     \t\t<tr>\n
+Action.c(75):     \t\t\t<th><b>Item ID</b></th>\n
+Action.c(75):     \t\t\t<th><b>Product ID</b></th>\n
+Action.c(75):     \t\t\t<th><b>Description</b></th>\n
+Action.c(75):     \t\t\t<th><b>In Stock?</b></th>\n
+Action.c(75):     \t\t\t<th><b>Quantity</b></th>\n
+Action.c(75):     \t\t\t<th><b>List Price</b></th>\n
+Action.c(75):     \t\t\t<th><b>Total Cost</b></th>\n
+Action.c(75):     \t\t\t<th>&nbsp;</th>\n
+Action.c(75):     \t\t</tr>\n
+Action.c(75):     \n
+Action.c(75):     \t\t\n
+Action.c(75):     \n
+Action.c(75):     \t\t\n
+Action.c(75):     \t\t\t<tr>\n
+Action.c(75):     \t\t\t\t<td><a href="/actions/Catalog.action?viewItem=&amp;itemId=EST-11">EST-11</a></td>\n
+Action.c(75):     \t\t\t\t<td>RP-SN-01</td>\n
+Action.c(75):     \t\t\t\t<td>Venomless \n
+Action.c(75):     \t\t\t\t \n
+Action.c(75):     \t\t\t\t Rattlesnake</td>\n
+Action.c(75):     \t\t\t\t<td>false</td>\n
+Action.c(75):     \t\t\t\t<td><input size="3" name="EST-11" type="text" value="1" /></td>\n
+Action.c(75):     \t\t\t\t<td>$18.50</td>\n
+Action.c(75):     \t\t\t\t<td>$18.50</td>\n
+Action.c(75):     \t\t\t\t<td><a href="/actions/Cart.action?removeItemFromCart=&amp;workingItemId=EST-11" cl
+Action.c(75):     ass="Button">Remove</a></td>\n
+Action.c(75):     \t\t\t</tr>\n
+Action.c(75):     \t\t\n
+Action.c(75):     \t\t<tr>\n
+Action.c(75):     \t\t\t<td colspan="7">Sub Total: $18.50 <input name="updateCartQuantities" type="submit" v
+Action.c(75):     alue="Update Cart" /></td>\n
+Action.c(75):     \t\t\t<td>&nbsp;</td>\n
+Action.c(75):     \t\t</tr>\n
+Action.c(75):     \t</table>\n
+Action.c(75):     \n
+Action.c(75):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="V1rtXLXcXriQxUb
+Action.c(75):     C-thLzZn6Szg614gr0D9kD_SGKVqepCX-9PKDT3RjfGl4iNMTH4YE8WNy90zdyzZ6hMfEuJL7bs4oqSRJ" /><inpu
+Action.c(75):     t type="hidden" name="__fp" value="uPJ5M_-KlDxt_04ntAFCisfZYvvrcTmRxxKaOSj-mWUihQMygBIldz4
+Action.c(75):     GG-d_N0GZ" /></div></form> \n
+Action.c(75):     \t<a href="/actions/Order.action?newOrderForm=" class="Button">Proceed to Checkout</a
+Action.c(75): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): t=812989ms: 243-byte response body for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-11" (RelFrameId=1, Internal ID=480)
+Action.c(75):     >\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="MyList">\n
+Action.c(75):       \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Separator">&nbsp;</div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Footer">\n
+Action.c(75):     \n
+Action.c(75):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Banner"></div>\n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     </body>\n
+Action.c(75):     </html>
+Action.c(75): web_url("Cart.action") highest severity level was "warning", 4202 body bytes, 213 header bytes  	[MsgId: MMSG-26388]
+Action.c(85): Notify: Transaction "PET_STORE_05_ADD_TO_CART" ended with a "Pass" status (Duration: 0.2212 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(87): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 44 (thread 3680), ended OK."	[MsgId: MMSG-10695]
+Action.c(57): Notify: Transaction "PET_STORE_04_SELECT_ITEM_ID" started.	[MsgId: MMSG-16999]
+Action.c(59): web_url("Catalog.action_4") started  	[MsgId: MMSG-26355]
+Action.c(59): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(59): Notify: Next row for parameter itemID = 19 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(59): Notify: Parameter Substitution: parameter "itemID" =  "EST-27"	[MsgId: MMSG-13992]
+Action.c(59): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(59): Notify: Next row for parameter productID = 19 [table  = productID].	[MsgId: MMSG-13876]
+Action.c(59): Notify: Parameter Substitution: parameter "productID" =  "K9-CW-01"	[MsgId: MMSG-13992]
+Action.c(59): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-17 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=0CF73A18 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(59): The request to server https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-27" is done with headers:
+Action.c(59):     :method = GET
+Action.c(59):     :scheme = https
+Action.c(59):     :path = /actions/Catalog.action?viewItem=&itemId=EST-27
+Action.c(59):     :authority = petstore.octoperf.com
+Action.c(59):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-C
+Action.c(59):     W-01
+Action.c(59):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(59):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(59):     Accept-Encoding = gzip, deflate, br
+Action.c(59):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(59):     Accept = */*
+Action.c(59):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(59): t=814919ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-27" (RelFrameId=1, Internal ID=454)
+Action.c(59):     HTTP/2.0 200\r\n
+Action.c(59):     Status: 200\r\n
+Action.c(59):     date: Fri, 02 Jun 2023 16:16:42 GMT\r\n
+Action.c(59):     content-type: text/html;charset=UTF-8\r\n
+Action.c(59):     content-length: 3334\r\n
+Action.c(59):     content-language: en\r\n
+Action.c(59):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(59):     \r\n
+Action.c(59): t=814920ms: 3334-byte response body for "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-27" (RelFrameId=1, Internal ID=454)
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(59):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(59):     \n
+Action.c(59):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(59):     \n
+Action.c(59):     <head>\n
+Action.c(59):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(59):     \tmedia="screen" />\n
+Action.c(59):     \n
+Action.c(59):     <meta name="generator"\n
+Action.c(59):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(59):     <title>JPetStore Demo</title>\n
+Action.c(59):     <meta content="text/html; charset=windows-1252"\n
+Action.c(59):     \thttp-equiv="Content-Type" />\n
+Action.c(59):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(59):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(59):     <meta http-equiv="expires" content="0" />\n
+Action.c(59):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(59):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(59):     </head>\n
+Action.c(59):     \n
+Action.c(59):     <body>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Header">\n
+Action.c(59):     \n
+Action.c(59):     <div id="Logo">\n
+Action.c(59):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(59):     f" /></a></div>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Menu">\n
+Action.c(59):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(59):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(59):      /> \n
+Action.c(59):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(59):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(59):     \thref="../help.html">?</a></div>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Search">\n
+Action.c(59):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(59):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(59):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(59):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="laNoKV1L2x6RtAY
+Action.c(59):     46VQCahubdVEv0Tcl9jzOCLa1gwwXi00kl2hFifAKKlsY63WGRT1brqxPsERcyD0JcYkcEABVGmwJcRpF" /><inpu
+Action.c(59):     t type="hidden" name="__fp" value="OHq2WjsApwweiK04ho0yLT__0poYcNg5blmmRqB2W3OGv5-mGSMyWqP
+Action.c(59):     HFuVfld3d" /></div></form></div>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(59):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(59):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(59):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(59):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(59):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(59):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(59):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(59):     a></div>\n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Content">\n
+Action.c(59):     \n
+Action.c(59):     <div id="BackLink"><a href="/actions/Catalog.action?viewProduct=&amp;productId=K9-CW-01">R
+Action.c(59):     eturn to K9-CW-01</a></div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Catalog">\n
+Action.c(59):     \n
+Action.c(59):     <table>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><image src="../images/dog4.gif">Great companion dog</td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><b> EST-27 </b></td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><b><font size="4"> Adult Female\n
+Action.c(59):     \t\t \n
+Action.c(59):     \t\t \n
+Action.c(59):     \t\tChihuahua </font></b></td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td>Chihuahua</td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td>\n
+Action.c(59):             Back ordered.\n
+Action.c(59):            </td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td>$155.29</td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     \n
+Action.c(59):     \t<tr>\n
+Action.c(59):     \t\t<td><a href="/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-27" class="Butt
+Action.c(59):     on">Add to Cart</a></td>\n
+Action.c(59):     \t</tr>\n
+Action.c(59):     </table>\n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Footer">\n
+Action.c(59):     \n
+Action.c(59):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     <div id="Banner"></div>\n
+Action.c(59):     \n
+Action.c(59):     </div>\n
+Action.c(59):     \n
+Action.c(59):     </body>\n
+Action.c(59):     </html>\n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59):     \n
+Action.c(59): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Found resource "https://petstore.octoperf.com/images/dog4.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-27"  	[MsgId: MMSG-26659]
+Action.c(59): The request to server https://petstore.octoperf.com/images/dog4.gif" is done with headers:
+Action.c(59):     :method = GET
+Action.c(59):     :scheme = https
+Action.c(59):     :path = /images/dog4.gif
+Action.c(59):     :authority = petstore.octoperf.com
+Action.c(59):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-27
+Action.c(59):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(59):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(59):     Accept-Encoding = gzip, deflate, br
+Action.c(59):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(59):     Accept = */*
+Action.c(59):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(59): t=815124ms: 277-byte response headers for "https://petstore.octoperf.com/images/dog4.gif" (RelFrameId=, Internal ID=455)
+Action.c(59):     HTTP/2.0 200\r\n
+Action.c(59):     Status: 200\r\n
+Action.c(59):     date: Fri, 02 Jun 2023 16:16:42 GMT\r\n
+Action.c(59):     content-type: image/gif\r\n
+Action.c(59):     content-length: 12277\r\n
+Action.c(59):     accept-ranges: bytes\r\n
+Action.c(59):     etag: W/"12277-1645112688000"\r\n
+Action.c(59):     last-modified: Thu, 17 Feb 2022 15:44:48 GMT\r\n
+Action.c(59):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(59):     \r\n
+Action.c(59): t=815125ms: 3895-byte response body for "https://petstore.octoperf.com/images/dog4.gif" (RelFrameId=, Internal ID=455)
+Action.c(59): t=815125ms: 4087-byte response body for "https://petstore.octoperf.com/images/dog4.gif" (RelFrameId=, Internal ID=455)
+Action.c(59): t=815125ms: 9-byte response body for "https://petstore.octoperf.com/images/dog4.gif" (RelFrameId=, Internal ID=455)
+Action.c(59): t=815320ms: 4087-byte response body for "https://petstore.octoperf.com/images/dog4.gif" (RelFrameId=, Internal ID=455)
+Action.c(59): t=815320ms: 9-byte response body for "https://petstore.octoperf.com/images/dog4.gif" (RelFrameId=, Internal ID=455)
+Action.c(59): t=815320ms: 190-byte response body for "https://petstore.octoperf.com/images/dog4.gif" (RelFrameId=, Internal ID=455)
+Action.c(59): web_url("Catalog.action_4") highest severity level was "warning", 15611 body bytes, 490 header bytes  	[MsgId: MMSG-26388]
+Action.c(69): Notify: Transaction "PET_STORE_04_SELECT_ITEM_ID" ended with a "Pass" status (Duration: 0.5992 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(71): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 46 (thread 7744), ended OK."	[MsgId: MMSG-10695]
+Action.c(73): Notify: Transaction "PET_STORE_05_ADD_TO_CART" started.	[MsgId: MMSG-16999]
+Action.c(75): web_url("Cart.action") started  	[MsgId: MMSG-26355]
+Action.c(75): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Next row for parameter itemID = 19 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(75): Notify: Parameter Substitution: parameter "itemID" =  "EST-27"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"	[MsgId: MMSG-13992]
+Action.c(75): Notify: Next row for parameter itemID = 19 [table  = itemID].	[MsgId: MMSG-13876]
+Action.c(75): Notify: Parameter Substitution: parameter "itemID" =  "EST-27"	[MsgId: MMSG-13992]
+Action.c(75): Warning -26499: Internal Error - Invalid _iTotalConnectionsReached=4 _iTotalConnectionsAllowed=16 _iTotalHttp2Connections=-17 (LRW_NET_TOTAL_CONNECTIONS_LIMIT=50, MIN_RANGE_MAX_CONNECTIONS=1) for ptNetVUserVars=0CF73A18 in real_xfvLrwNetProcessAllItems  	[MsgId: MWAR-26499]
+Action.c(75): The request to server https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-27" is done with headers:
+Action.c(75):     :method = GET
+Action.c(75):     :scheme = https
+Action.c(75):     :path = /actions/Cart.action?addItemToCart=&workingItemId=EST-27
+Action.c(75):     :authority = petstore.octoperf.com
+Action.c(75):     Referer = https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-27
+Action.c(75):     User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
+Action.c(75):     ko) Chrome/112.0.0.0 Safari/537.36
+Action.c(75):     Accept-Encoding = gzip, deflate, br
+Action.c(75):     Accept-Language = pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Action.c(75):     Accept = */*
+Action.c(75):     cookie = JSESSIONID=C6E3EDAC5B24333352C866D23E1CC2EE
+Action.c(75): t=818521ms: 213-byte response headers for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-27" (RelFrameId=1, Internal ID=456)
+Action.c(75):     HTTP/2.0 200\r\n
+Action.c(75):     Status: 200\r\n
+Action.c(75):     date: Fri, 02 Jun 2023 16:16:46 GMT\r\n
+Action.c(75):     content-type: text/html;charset=UTF-8\r\n
+Action.c(75):     content-length: 4206\r\n
+Action.c(75):     content-language: en\r\n
+Action.c(75):     strict-transport-security: max-age=15724800; includeSubDomains\r\n
+Action.c(75):     \r\n
+Action.c(75): t=818521ms: 3959-byte response body for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-27" (RelFrameId=1, Internal ID=456)
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(75):     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(75):     \n
+Action.c(75):     <html xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(75):     \n
+Action.c(75):     <head>\n
+Action.c(75):     <link rel="StyleSheet" href="../css/jpetstore.css" type="text/css"\n
+Action.c(75):     \tmedia="screen" />\n
+Action.c(75):     \n
+Action.c(75):     <meta name="generator"\n
+Action.c(75):     \tcontent="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />\n
+Action.c(75):     <title>JPetStore Demo</title>\n
+Action.c(75):     <meta content="text/html; charset=windows-1252"\n
+Action.c(75):     \thttp-equiv="Content-Type" />\n
+Action.c(75):     <meta http-equiv="Cache-Control" content="max-age=0" />\n
+Action.c(75):     <meta http-equiv="Cache-Control" content="no-cache" />\n
+Action.c(75):     <meta http-equiv="expires" content="0" />\n
+Action.c(75):     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />\n
+Action.c(75):     <meta http-equiv="Pragma" content="no-cache" />\n
+Action.c(75):     </head>\n
+Action.c(75):     \n
+Action.c(75):     <body>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Header">\n
+Action.c(75):     \n
+Action.c(75):     <div id="Logo">\n
+Action.c(75):     <div id="LogoContent"><a href="/actions/Catalog.action"><img src="../images/logo-topbar.gi
+Action.c(75):     f" /></a></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Menu">\n
+Action.c(75):     <div id="MenuContent"><a href="/actions/Cart.action?viewCart="><img align="middle" name="i
+Action.c(75):     mg_cart" src="../images/cart.gif" /></a> <img align="middle" src="../images/separator.gif"
+Action.c(75):      /> \n
+Action.c(75):     \t<a href="/actions/Account.action?signonForm=">Sign In</a>\n
+Action.c(75):        <img align="middle" src="../images/separator.gif" /> <a\n
+Action.c(75):     \thref="../help.html">?</a></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Search">\n
+Action.c(75):     <div id="SearchContent"><form method="post" action="/actions/Catalog.action">\n
+Action.c(75):     \t<input size="14" name="keyword" type="text" />\n
+Action.c(75):     \t<input name="searchProducts" type="submit" value="Search" />\n
+Action.c(75):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="ETQJSNFymaFxm_O
+Action.c(75):     I7IVZls7JZWaWSb9RXoPfxBPXO6XJ4Wj4t6es2D0m3ejdIzO5mx5Ws2a3XU9YwHealN8vA2t2DMFO5Fk6" /><inpu
+Action.c(75):     t type="hidden" name="__fp" value="aguN0h1D2jYdtKy-uP0wXpDS_E2vNTqIpmxEkPDhhUJBFe3Wpm27DvP
+Action.c(75):     XW4S4gzaZ" /></div></form></div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="QuickLinks"><a href="/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"><
+Action.c(75):     img src="../images/sm_fish.gif" /></a> <img src="../images/separator.gif" /> <a href="/act
+Action.c(75):     ions/Catalog.action?viewCategory=&amp;categoryId=DOGS"><img src="../images/sm_dogs.gif" />
+Action.c(75):     </a> <img src="../images/separator.gif" /> <a href="/actions/Catalog.action?viewCategory=&
+Action.c(75):     amp;categoryId=REPTILES"><img src="../images/sm_reptiles.gif" /></a> <img src="../images/s
+Action.c(75):     eparator.gif" /> <a href="/actions/Catalog.action?viewCategory=&amp;categoryId=CATS"><img 
+Action.c(75):     src="../images/sm_cats.gif" /></a> <img src="../images/separator.gif" /> <a href="/actions
+Action.c(75):     /Catalog.action?viewCategory=&amp;categoryId=BIRDS"><img src="../images/sm_birds.gif" /></
+Action.c(75):     a></div>\n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Content">\n
+Action.c(75):     \n
+Action.c(75):     <div id="BackLink"><a href="/actions/Catalog.action">Return to Main Menu</a></div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Catalog">\n
+Action.c(75):     \n
+Action.c(75):     <div id="Cart">\n
+Action.c(75):     \n
+Action.c(75):     <h2>Shopping Cart</h2>\n
+Action.c(75):     <form method="post" action="/actions/Cart.action">\n
+Action.c(75):     \t<table>\n
+Action.c(75):     \t\t<tr>\n
+Action.c(75):     \t\t\t<th><b>Item ID</b></th>\n
+Action.c(75):     \t\t\t<th><b>Product ID</b></th>\n
+Action.c(75):     \t\t\t<th><b>Description</b></th>\n
+Action.c(75):     \t\t\t<th><b>In Stock?</b></th>\n
+Action.c(75):     \t\t\t<th><b>Quantity</b></th>\n
+Action.c(75):     \t\t\t<th><b>List Price</b></th>\n
+Action.c(75):     \t\t\t<th><b>Total Cost</b></th>\n
+Action.c(75):     \t\t\t<th>&nbsp;</th>\n
+Action.c(75):     \t\t</tr>\n
+Action.c(75):     \n
+Action.c(75):     \t\t\n
+Action.c(75):     \n
+Action.c(75):     \t\t\n
+Action.c(75):     \t\t\t<tr>\n
+Action.c(75):     \t\t\t\t<td><a href="/actions/Catalog.action?viewItem=&amp;itemId=EST-27">EST-27</a></td>\n
+Action.c(75):     \t\t\t\t<td>K9-CW-01</td>\n
+Action.c(75):     \t\t\t\t<td>Adult Female \n
+Action.c(75):     \t\t\t\t \n
+Action.c(75):     \t\t\t\t Chihuahua</td>\n
+Action.c(75):     \t\t\t\t<td>false</td>\n
+Action.c(75):     \t\t\t\t<td><input size="3" name="EST-27" type="text" value="1" /></td>\n
+Action.c(75):     \t\t\t\t<td>$155.29</td>\n
+Action.c(75):     \t\t\t\t<td>$155.29</td>\n
+Action.c(75):     \t\t\t\t<td><a href="/actions/Cart.action?removeItemFromCart=&amp;workingItemId=EST-27" cl
+Action.c(75):     ass="Button">Remove</a></td>\n
+Action.c(75):     \t\t\t</tr>\n
+Action.c(75):     \t\t\n
+Action.c(75):     \t\t<tr>\n
+Action.c(75):     \t\t\t<td colspan="7">Sub Total: $155.29 <input name="updateCartQuantities" type="submit" 
+Action.c(75):     value="Update Cart" /></td>\n
+Action.c(75):     \t\t\t<td>&nbsp;</td>\n
+Action.c(75):     \t\t</tr>\n
+Action.c(75):     \t</table>\n
+Action.c(75):     \n
+Action.c(75):     <div style="display: none;"><input type="hidden" name="_sourcePage" value="fgpwUBrySuz6NGa
+Action.c(75):     Kmv2Vh4s_wxahZWlaWE0jKFXJit4lBF7qXXgdQ9gQRs1phn4L22nLgZR94d8dTnRB-A0_7bJ6NoRYK-uA" /><inpu
+Action.c(75):     t type="hidden" name="__fp" value="dhWSEqtizgDZej9rACsX_7ypjOYYUlDEEyuMQvV3jAljwiVK7C5WllE
+Action.c(75):     s0UUqHAd5" /></div></form> \n
+Action.c(75):     \t<a href="/actions/Order.action?newOrderForm=" class="Button">Proceed to Checkou
+Action.c(75): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(75): t=818528ms: 247-byte response body for "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-27" (RelFrameId=1, Internal ID=456)
+Action.c(75):     t</a>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="MyList">\n
+Action.c(75):       \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Separator">&nbsp;</div>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Footer">\n
+Action.c(75):     \n
+Action.c(75):     <div id="PoweredBy">&nbsp;<a href="http://www.mybatis.org">www.mybatis.org</a>\n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     <div id="Banner"></div>\n
+Action.c(75):     \n
+Action.c(75):     </div>\n
+Action.c(75):     \n
+Action.c(75):     </body>\n
+Action.c(75):     </html>
+Action.c(75): web_url("Cart.action") highest severity level was "warning", 4206 body bytes, 213 header bytes  	[MsgId: MMSG-26388]
+Action.c(85): Notify: Transaction "PET_STORE_05_ADD_TO_CART" ended with a "Pass" status (Duration: 0.2081 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+Action.c(87): lr_think_time: 3.00 seconds.	[MsgId: MMSG-15948]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Vuser 48 (thread 8444), ended OK."	[MsgId: MMSG-10695]

@@ -1,0 +1,15 @@
+GET /active/daily?gr=-1&v=8.10.0&ua=ed&os=win&l=pt_BR&bv=112&id=2023-03-22&sc=0&st=-1&si=0&pi=gbe&hw=0&ir=35&sn=0&nc=0&pb=0&ev=1&ab=0&sm=0&at=0&ss=-1&sl=null&sb=2&rc=1&ps=0&va=3&re=-1&ve=0&th=0&ts=0&us=&uc= HTTP/1.1
+Host: d.ghostery.com
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="112", "Microsoft Edge";v="112", "Not:A-Brand";v="99"
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68
+content-type: image/gif
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+

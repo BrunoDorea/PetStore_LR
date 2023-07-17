@@ -1,0 +1,15 @@
+[t54]
+FileName1=t54.htm
+URL1=https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01
+Total=3
+RequestHeaderFile=t54_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t54_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_52.xml
+FileName2=t54_3.html
+URL2=https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease
+FileName3=t54_3.html
+URL3=https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease
+[ProtocolInfo]
+ProtocolId=QTWeb

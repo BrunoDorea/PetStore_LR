@@ -1,0 +1,11 @@
+HTTP/1.1 201 Created
+Cache-Control: public, max-age=30
+Content-Length: 865
+Content-Type: application/json; charset=utf-8
+Location: v%7Bversion:apiVersion%7D/feeds/me/subscriptions/4e436afb-1463-32fc-2352-8b1d1a182b95
+MS-CV: /4KZ//cfMk24NIuNVB8GkQ.0
+X-AFS-Tracking: cV=/4KZ//cfMk24NIuNVB8GkQ.0;server=GENERAL0100000U;cloudType=Consumer;environment=Prod_EastUS2_000e;migrationStage=NotStarted
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 5BB552F287344BAEB337569ABE8EFF3B Ref B: GRU30EDGE1217 Ref C: 2023-05-05T14:02:22Z
+Date: Fri, 05 May 2023 14:02:21 GMT
+

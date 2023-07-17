@@ -1,0 +1,11 @@
+[t36]
+FileName1=t36_collections.json
+URL1=https://www.bingapis.com/api/v7/saves/edge/collections?appid=44A72CAAA7B8B99CBEF405BFAD4E9B24370F2853
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_34.xml
+RequestHeaderFile=t36_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t36_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,12 @@
+GET /api/v7/saves/edge/collections?appid=44A72CAAA7B8B99CBEF405BFAD4E9B24370F2853 HTTP/1.1
+Host: www.bingapis.com
+Connection: keep-alive
+X-MSEdge-ClientID: 35B64BF2C38D603B1306592EC2546189
+X-MSEdge-UserID: 61451215952A6D180D20C1E9FFFFFFFF
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+

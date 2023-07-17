@@ -1,0 +1,11 @@
+[t19]
+FileName1=t19.htm
+URL1=https://edgeservices.bing.com/edgesvc/shell?&lightschemeovr=1&FORM=SHORUN&udscs=1&udsnav=1&setlang=pt-BR&clientscopes=noheader,coauthor,chat,docvisibility,visibilitypm,channelstable,&udsframed=1
+Total=1
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t19_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_17.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

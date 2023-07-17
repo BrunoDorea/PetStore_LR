@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Fri, 05 May 2023 13:24:26 GMT
+Cache-Control: max-age=172800
+Last-Modified: Fri, 05 May 2023 13:08:10 GMT
+x-amz-version-id: pLgdjmCo2MYcooVlJHfTXc7PggxsqIh_
+ETag: W/"bdae8b76399d6114df15eed45a750418"
+Server: AmazonS3
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 41591135582883808a7c82819cf851a2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: GIG51-C2
+X-Amz-Cf-Id: XpTLyOyelPI-mSVV8sphx4nJjFsMIUFE_PEEE4yfG5jhrE5fC5SzJg==
+Age: 2274
+Vary: Origin
+

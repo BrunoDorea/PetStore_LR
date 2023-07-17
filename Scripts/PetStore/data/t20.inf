@@ -1,0 +1,11 @@
+[t20]
+FileName1=t20_crx.xml
+URL1=https://edge.microsoft.com/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=112.0.1722.68&lang=pt-BR&acceptformat=crx3&x=id%3Dadmkpobhocmdideidcndkfaeffadipkc%26v%3D2.0.1%26installedby%3Dinternal%26uc&x=id%3Dddobgngkifgapahlheghhckckkcgpikf%26v%3D2.3.0%26installedby%3Dinternal%26uc&x=id%3Ddigoaejcopelkbkcbiemimccohaooggd%26v%3D6.3%26installedby%3Dinternal%26uc&x=id%3Ddknkgjgkdpkmddgdjlgdhfojlaehikmk%26v%3D23.4.2%26installedby%3Dexternal%26uc&x=id%3Ddpidllmdbfmclpenbdfjkbbipkbbadbg%26v%3D3.2.4%26installedby%3Dinternal%26uc&x=id%3Dejbalbakoplchlghecdalmeeeajnimhm%26v%3D10.28.3%26installedby%3Dinternal%26uc&x=id%3Dfcbmiimfkmkkkffjlopcpdlgclncnknm%26v%3D1.11.25%26installedby%3Dinternal%26uc&x=id%3Dfclbdkbhjlgkbpfldjodgjncejkkjcme%26v%3D8.10.0%26installedby%3Dinternal%26uc&x=id%3Difoakfbpdcdoeenechcleahebpibofpc%26v%3D4.9.63%26installedby%3Dinternal%26uc&x=id%3Dkpldbdfpngbdadafgaccakmeaoeligcl%26v%3D10%26installedby%3Dinternal%26uc&x=id%3Dndcileolkflehcjpmjnfbnaibdcgglog%26v%3D5.6.0%26installedby%3Dinternal%26uc&x=id%3Dnpjkkakdacjaihjaoeliacmecofghagh%26v%3D16.4.3.1%26installedby%3Dinternal%26uc&x=id%3Doholpbloipjbbhlhohaebmieiiieioal%26v%3D3.4.7%26installedby%3Dinternal%26uc&x=id%3Dbnplfnhcidhhdapmblniehfaaompjlck%26v%3D1.3%26installedby%3Dinternal%26uc&x=id%3Djcihpcjnflelimhjjggdhhjpencddnbp%26v%3D2.0.1%26installedby%3Dinternal%26uc&x=id%3Dmnbndgmknlpdjdnjfmfcdjoegcckoikn%26v%3D6.10.62%26installedby%3Dinternal%26uc&x=id%3Dnlbmdekgjkajiobkcbpolefohlelfhfe%26v%3D0.7%26installedby%3Dinternal%26uc
+Total=1
+ContentType=text/xml
+SnapshotXmlFile=snapshot_18.xml
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

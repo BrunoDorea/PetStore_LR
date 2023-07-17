@@ -1,0 +1,11 @@
+[t13]
+FileName1=t13.xml
+URL1=http://192.168.100.239:7678/nservice/
+Total=1
+ContentType=text/xml
+SnapshotXmlFile=snapshot_11.xml
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t13_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

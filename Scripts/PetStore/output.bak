@@ -1,0 +1,243 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 05/05/2023 11:40:02
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (jan 05 2021 19:27:22)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Github\PetStore_LR\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "PET_STORE_01_ENTER_THE_STORE" started.
+Action.c(4): Warning: Failed to get NV emulation handle.
+Action.c(6): web_url("Catalog.action") started  	[MsgId: MMSG-26355]
+Action.c(6): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(6): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(6): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/logo-topbar.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/cart.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/separator.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_fish.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_dogs.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_reptiles.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_cats.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_birds.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/fish_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/dogs_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): web_url("Catalog.action") was successful, 54816 body bytes, 4386 header bytes  	[MsgId: MMSG-26386]
+Action.c(16): Notify: Transaction "PET_STORE_01_ENTER_THE_STORE" ended with a "Pass" status (Duration: 1,5798 Wasted Time: 0,2303).
+Action.c(20): Notify: Transaction "PET_STORE_02_SELECT_CATEGORY" started.
+Action.c(20): Warning: Failed to get NV emulation handle.
+Action.c(22): web_url("Catalog.action_2") started  	[MsgId: MMSG-26355]
+Action.c(22): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(22): Notify: Parameter Substitution: parameter "categoryID" =  "FISH"
+Action.c(22): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(22): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Downloading resource "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v7/Condition/D200PartlySunnyV2.svg" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(22): web_url("Catalog.action_2") was successful, 4716 body bytes, 1249 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): Notify: Transaction "PET_STORE_02_SELECT_CATEGORY" ended with a "Pass" status (Duration: 0,3671 Wasted Time: 0,0104).
+Action.c(38): Notify: Transaction "PET_STORE_03_SELECT_PRODUCT_ID" started.
+Action.c(38): Warning: Failed to get NV emulation handle.
+Action.c(40): web_url("Catalog.action_3") started  	[MsgId: MMSG-26355]
+Action.c(40): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(40): Notify: Next row for parameter productID = 1 [table  = productID].
+Action.c(40): Notify: Parameter Substitution: parameter "productID" =  "FI-SW-01"
+Action.c(40): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(40): Notify: Parameter Substitution: parameter "categoryID" =  "FISH"
+Action.c(40): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Downloading resource "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(40): Downloading resource "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(40): Warning -27760: Request "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" failed  	[MsgId: MWAR-27760]
+Action.c(40): Warning -27760: Request "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" failed  	[MsgId: MWAR-27760]
+Action.c(40): web_url("Catalog.action_3") highest severity level was "warning", 3635 body bytes, 213 header bytes  	[MsgId: MMSG-26388]
+Action.c(53): Notify: Transaction "PET_STORE_03_SELECT_PRODUCT_ID" ended with a "Pass" status (Duration: 0,3724 Wasted Time: 0,0043).
+Action.c(57): Notify: Transaction "PET_STORE_04_SELECT_ITEM_ID" started.
+Action.c(57): Warning: Failed to get NV emulation handle.
+Action.c(59): web_url("Catalog.action_4") started  	[MsgId: MMSG-26355]
+Action.c(59): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(59): Notify: Next row for parameter itemID = 1 [table  = itemID].
+Action.c(59): Notify: Parameter Substitution: parameter "itemID" =  "EST-1"
+Action.c(59): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(59): Notify: Next row for parameter productID = 1 [table  = productID].
+Action.c(59): Notify: Parameter Substitution: parameter "productID" =  "FI-SW-01"
+Action.c(59): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Found resource "https://petstore.octoperf.com/images/fish1.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-1"  	[MsgId: MMSG-26659]
+Action.c(59): web_url("Catalog.action_4") was successful, 15974 body bytes, 490 header bytes  	[MsgId: MMSG-26386]
+Action.c(69): Notify: Transaction "PET_STORE_04_SELECT_ITEM_ID" ended with a "Pass" status (Duration: 0,4042 Wasted Time: 0,0061).
+Action.c(73): web_add_header("MS-CV") started  	[MsgId: MMSG-26355]
+Action.c(73): web_add_header("MS-CV") was successful  	[MsgId: MMSG-26392]
+Action.c(76): Notify: Transaction "PET_STORE_05_ADD_TO_CART" started.
+Action.c(76): Warning: Failed to get NV emulation handle.
+Action.c(78): web_url("Cart.action") started  	[MsgId: MMSG-26355]
+Action.c(78): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(78): Notify: Next row for parameter itemID = 1 [table  = itemID].
+Action.c(78): Notify: Parameter Substitution: parameter "itemID" =  "EST-1"
+Action.c(78): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(78): Notify: Next row for parameter itemID = 1 [table  = itemID].
+Action.c(78): Notify: Parameter Substitution: parameter "itemID" =  "EST-1"
+Action.c(78): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): web_url("Cart.action") was successful, 4192 body bytes, 213 header bytes  	[MsgId: MMSG-26386]
+Action.c(88): Notify: Transaction "PET_STORE_05_ADD_TO_CART" ended with a "Pass" status (Duration: 0,3755 Wasted Time: 0,0046).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter URL_BASE = 1 [table  = URL_BASE].
+Notify: Getting new value for parameter 'URL_BASE': table = 'URL_BASE.dat' column = '0' row = '1'.
+Notify: Next row for parameter categoryID = 2 [table  = categoryID].
+Notify: Getting new value for parameter 'categoryID': table = 'listID.dat' column = '0' row = '2'.
+Notify: Next row for parameter itemID = 2 [table  = itemID].
+Notify: Getting new value for parameter 'itemID': table = 'listID.dat' column = '2' row = '2'.
+Notify: Next row for parameter productID = 2 [table  = productID].
+Notify: Getting new value for parameter 'productID': table = 'listID.dat' column = '1' row = '2'.
+Starting action Action.
+Action.c(4): Notify: Transaction "PET_STORE_01_ENTER_THE_STORE" started.
+Action.c(4): Warning: Failed to get NV emulation handle.
+Action.c(6): web_url("Catalog.action") started  	[MsgId: MMSG-26355]
+Action.c(6): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(6): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(6): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/logo-topbar.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/cart.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/separator.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_fish.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_dogs.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_reptiles.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_cats.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/sm_birds.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/fish_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/dogs_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/cats_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/reptiles_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/birds_icon.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://petstore.octoperf.com/images/splash.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(6): web_url("Catalog.action") was successful, 54816 body bytes, 4386 header bytes  	[MsgId: MMSG-26386]
+Action.c(16): Notify: Transaction "PET_STORE_01_ENTER_THE_STORE" ended with a "Pass" status (Duration: 1,3587 Wasted Time: 0,0097).
+Action.c(20): Notify: Transaction "PET_STORE_02_SELECT_CATEGORY" started.
+Action.c(20): Warning: Failed to get NV emulation handle.
+Action.c(22): web_url("Catalog.action_2") started  	[MsgId: MMSG-26355]
+Action.c(22): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(22): Notify: Parameter Substitution: parameter "categoryID" =  "FISH"
+Action.c(22): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(22): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(22): Downloading resource "https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v7/Condition/D200PartlySunnyV2.svg" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(22): web_url("Catalog.action_2") was successful, 4716 body bytes, 1249 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): Notify: Transaction "PET_STORE_02_SELECT_CATEGORY" ended with a "Pass" status (Duration: 0,5640 Wasted Time: 0,0071).
+Action.c(38): Notify: Transaction "PET_STORE_03_SELECT_PRODUCT_ID" started.
+Action.c(38): Warning: Failed to get NV emulation handle.
+Action.c(40): web_url("Catalog.action_3") started  	[MsgId: MMSG-26355]
+Action.c(40): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(40): Notify: Next row for parameter productID = 2 [table  = productID].
+Action.c(40): Notify: Parameter Substitution: parameter "productID" =  "FI-SW-01"
+Action.c(40): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(40): Notify: Parameter Substitution: parameter "categoryID" =  "FISH"
+Action.c(40): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Downloading resource "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(40): Downloading resource "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(40): Warning -27760: Request "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/bloomfilter/x/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" failed  	[MsgId: MWAR-27760]
+Action.c(40): Warning -27760: Request "https://data-edge.smartscreen.microsoft.com/api/browser/edge/data/toptraffic/3?pushcert=false&os=10.0.23451.1000.ni_prerelease" failed  	[MsgId: MWAR-27760]
+Action.c(40): web_url("Catalog.action_3") highest severity level was "warning", 3635 body bytes, 213 header bytes  	[MsgId: MMSG-26388]
+Action.c(53): Notify: Transaction "PET_STORE_03_SELECT_PRODUCT_ID" ended with a "Pass" status (Duration: 0,3762 Wasted Time: 0,0102).
+Action.c(57): Notify: Transaction "PET_STORE_04_SELECT_ITEM_ID" started.
+Action.c(57): Warning: Failed to get NV emulation handle.
+Action.c(59): web_url("Catalog.action_4") started  	[MsgId: MMSG-26355]
+Action.c(59): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(59): Notify: Next row for parameter itemID = 2 [table  = itemID].
+Action.c(59): Notify: Parameter Substitution: parameter "itemID" =  "EST-2"
+Action.c(59): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(59): Notify: Next row for parameter productID = 2 [table  = productID].
+Action.c(59): Notify: Parameter Substitution: parameter "productID" =  "FI-SW-01"
+Action.c(59): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(59): Found resource "https://petstore.octoperf.com/images/fish1.gif" in HTML "https://petstore.octoperf.com/actions/Catalog.action?viewItem=&itemId=EST-2"  	[MsgId: MMSG-26659]
+Action.c(59): web_url("Catalog.action_4") was successful, 15974 body bytes, 490 header bytes  	[MsgId: MMSG-26386]
+Action.c(69): Notify: Transaction "PET_STORE_04_SELECT_ITEM_ID" ended with a "Pass" status (Duration: 0,4072 Wasted Time: 0,0058).
+Action.c(73): web_add_header("MS-CV") started  	[MsgId: MMSG-26355]
+Action.c(73): web_add_header("MS-CV") was successful  	[MsgId: MMSG-26392]
+Action.c(76): Notify: Transaction "PET_STORE_05_ADD_TO_CART" started.
+Action.c(76): Warning: Failed to get NV emulation handle.
+Action.c(78): web_url("Cart.action") started  	[MsgId: MMSG-26355]
+Action.c(78): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(78): Notify: Next row for parameter itemID = 2 [table  = itemID].
+Action.c(78): Notify: Parameter Substitution: parameter "itemID" =  "EST-2"
+Action.c(78): Notify: Parameter Substitution: parameter "URL_BASE" =  "https://petstore.octoperf.com"
+Action.c(78): Notify: Next row for parameter itemID = 2 [table  = itemID].
+Action.c(78): Notify: Parameter Substitution: parameter "itemID" =  "EST-2"
+Action.c(78): Resource "https://petstore.octoperf.com/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/logo-topbar.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): web_url("Cart.action") was successful, 4192 body bytes, 213 header bytes  	[MsgId: MMSG-26386]
+Action.c(88): Notify: Transaction "PET_STORE_05_ADD_TO_CART" ended with a "Pass" status (Duration: 0,3565 Wasted Time: 0,0081).
+Ending action Action.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

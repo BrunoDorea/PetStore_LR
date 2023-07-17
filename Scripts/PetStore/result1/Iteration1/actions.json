@@ -1,0 +1,74 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t1.inf",
+                "time": 1683548527678
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Catalog.action_2",
+                "infFile": "t2.inf",
+                "time": 1683548528470
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Catalog.action_3",
+                "infFile": "t3.inf",
+                "time": 1683548529236
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Catalog.action_4",
+                "infFile": "t4.inf",
+                "time": 1683548530948
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Cart.action",
+                "infFile": "t5.inf",
+                "time": 1683548531542
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "PET_STORE_01_ENTER_THE_STORE",
+                "rawStartTime": 1683548521332,
+                "rawEndTime": 1683548527686,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07418107986450196
+            },
+            {
+                "transactionName": "PET_STORE_02_SELECT_CATEGORY",
+                "rawStartTime": 1683548527795,
+                "rawEndTime": 1683548528475,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008063077926635743
+            },
+            {
+                "transactionName": "PET_STORE_03_SELECT_PRODUCT_ID",
+                "rawStartTime": 1683548528584,
+                "rawEndTime": 1683548529252,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007984161376953125
+            },
+            {
+                "transactionName": "PET_STORE_04_SELECT_ITEM_ID",
+                "rawStartTime": 1683548529362,
+                "rawEndTime": 1683548530962,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0064890384674072269
+            },
+            {
+                "transactionName": "PET_STORE_05_ADD_TO_CART",
+                "rawStartTime": 1683548531087,
+                "rawEndTime": 1683548531549,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006654024124145508
+            }
+        ]
+    }
+]

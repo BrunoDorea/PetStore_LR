@@ -1,0 +1,13 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2023/05/05 12:47:59
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2023/05/05 12:48:40
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2023/05/05 14:02:02
+StartRecordingIsDst_3=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1
+[UserHomePage]
+UserHomePage=http://go.microsoft.com/fwlink/p/?LinkId=255141

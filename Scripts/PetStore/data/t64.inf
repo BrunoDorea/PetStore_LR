@@ -1,0 +1,11 @@
+[t64]
+FileName1=t64.htm
+URL1=https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-1
+Total=1
+RequestHeaderFile=t64_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t64_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_62.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

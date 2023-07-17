@@ -1,0 +1,11 @@
+[t26]
+FileName1=t26.html
+URL1=https://edgeservices.bing.com/fd/ls/lsp.aspx?
+Total=1
+RequestHeaderFile=t26_RequestHeader.txt
+RequestBodyFile=t26_RequestBody.txt
+ResponseHeaderFile=t26_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_24.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

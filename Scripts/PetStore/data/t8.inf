@@ -1,0 +1,11 @@
+[t8]
+FileName1=t8.json
+URL1=https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+Total=1
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=t8_RequestBody.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_6.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

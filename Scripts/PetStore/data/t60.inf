@@ -1,0 +1,13 @@
+[t60]
+FileName1=t60.json
+URL1=https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3
+Total=2
+RequestHeaderFile=t60_RequestHeader.txt
+RequestBodyFile=t60_RequestBody.txt
+ResponseHeaderFile=t60_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_58.xml
+FileName2=t60_fish1.gif
+URL2=https://petstore.octoperf.com/images/fish1.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+Content-Encoding: br
+Vary: Accept-Encoding
+Set-Cookie: APP_ANON=A=61451215952A6D180D20C1E9FFFFFFFF; expires=Wed, 01 Nov 2023 14:02:48 GMT; domain=msn.com; path=/; secure; samesite=none; httponly
+Set-Cookie: aace=%7b%22child%22%3a0%7d; expires=Wed, 01 Nov 2023 14:02:48 GMT; domain=msn.com; path=/; secure; samesite=none
+Set-Cookie: els=%7b%22account_type%22%3a%22MSA%22%7d; expires=Wed, 01 Nov 2023 14:02:48 GMT; domain=msn.com; path=/; secure; samesite=none
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: TicketType,RequestContinuationKey,AuthToken,Content-Type,x-client-activityid,ms-cv,signedInCookieName,muid,appid,User-Location,user-location,userauthtoken,usertickettype,sitename,s2sauthtoken,thumbprint,Authorization,Ent-Authorization,UserIdToken,DDD-TMPL,DDD-ActivityId,DDD-FeatureSet,DDD-Session-ID,Date,date,ads-referer,ads-referer,taboola-sessionId,taboola-sessionid,Akamai-Request-ID,Akamai-Server-IP,X-MSEdge-Ref,DDD-DebugId,s-xbox-token,OneWebServiceLatency,X-FD-Features,DDD-UserType,traceparent
+Access-Control-Allow-Methods: PUT,PATCH,POST,GET,OPTIONS,DELETE
+Access-Control-Allow-Origin: https://ntp.msn.com
+Access-Control-Expose-Headers: TicketType,RequestContinuationKey,AuthToken,Content-Type,x-client-activityid,ms-cv,signedInCookieName,muid,appid,User-Location,user-location,userauthtoken,usertickettype,sitename,s2sauthtoken,thumbprint,Authorization,Ent-Authorization,UserIdToken,DDD-TMPL,DDD-ActivityId,DDD-FeatureSet,DDD-Session-ID,Date,date,ads-referer,ads-referer,taboola-sessionId,taboola-sessionid,Akamai-Request-ID,Akamai-Server-IP,X-MSEdge-Ref,DDD-DebugId,s-xbox-token,OneWebServiceLatency,X-FD-Features,DDD-UserType,traceparent
+DDD-AuthenticatedWithJwtFlow: False
+DDD-UserType: PersonalMicrosoftAccount
+DDD-ActivityId: 80b765e4-bcaa-468a-aa6d-319adcc83464
+DDD-StrategyExecutionLatency: 00:00:00.0001384
+DDD-DebugId: 80b765e4-bcaa-468a-aa6d-319adcc83464|2023-05-05T14:02:48.1409352Z|fabric:/auth|EUS1|Auth_9
+OneWebServiceLatency: 3
+X-MSEdge-ResponseInfo: 3
+X-Ceto-ref: 3E4E20D6067D4E8B9539FFC9F1905B43|2023-05-05T14:02:48.134Z
+nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_fraction":1.0}
+report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://deff.nelreports.net/api/report?cat=msn"}]}
+X-Cache: CONFIG_NOCACHE
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-MSEdge-Ref: Ref A: 3E4E20D6067D4E8B9539FFC9F1905B43 Ref B: GRU30EDGE1007 Ref C: 2023-05-05T14:02:48Z
+Date: Fri, 05 May 2023 14:02:47 GMT
+

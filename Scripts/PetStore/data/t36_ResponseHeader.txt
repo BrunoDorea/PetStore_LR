@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Length: 47
+Content-Type: application/json
+Expires: Fri, 05 May 2023 14:01:48 GMT
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: MUID=35B64BF2C38D603B1306592EC2546189; domain=.bingapis.com; expires=Wed, 29-May-2024 14:02:48 GMT; path=/; secure; SameSite=None
+Set-Cookie: MUIDB=35B64BF2C38D603B1306592EC2546189; expires=Wed, 29-May-2024 14:02:48 GMT; path=/; HttpOnly
+Set-Cookie: _EDGE_S=F=1&SID=00D7CAA99B7767870EC4D9A19A43663B; domain=.bingapis.com; path=/; HttpOnly
+Set-Cookie: _EDGE_V=1; domain=.bingapis.com; expires=Wed, 29-May-2024 14:02:48 GMT; path=/; HttpOnly
+Set-Cookie: USRLOC=HS=1; domain=.bingapis.com; expires=Wed, 29-May-2024 14:02:48 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: SRCHD=AF=NOFORM; domain=.bingapis.com; expires=Wed, 29-May-2024 14:02:48 GMT; path=/; secure; SameSite=None
+Set-Cookie: SRCHUID=V=2&GUID=F3E6CE8EFE164B68844C329F4212C92B&dmnchg=1; domain=.bingapis.com; expires=Wed, 29-May-2024 14:02:48 GMT; path=/; secure; SameSite=None
+Set-Cookie: SRCHUSR=DOB=20230505; domain=.bingapis.com; expires=Wed, 29-May-2024 14:02:48 GMT; path=/; secure; SameSite=None
+Set-Cookie: SRCHHPGUSR=SRCHLANG=pt-BR; domain=.bingapis.com; expires=Wed, 29-May-2024 14:02:48 GMT; path=/; secure; SameSite=None
+Set-Cookie: _SS=SID=00D7CAA99B7767870EC4D9A19A43663B; domain=.bingapis.com; path=/; secure; SameSite=None
+X-EventID: 64550c88f025401992793cf8605d8f1c
+UserAgentReductionOptOut: A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=
+Content-Security-Policy-Report-Only: script-src https: 'strict-dynamic' 'report-sample' 'nonce-/abgaOc9wcHeyzgXmLADTCuG8+27HVxUHc+gKnq1KUk='; base-uri 'self';report-to csp-endpoint
+Report-To: {"group":"csp-endpoint","max_age":86400,"endpoints":[{"url":"https://aefd.nelreports.net/api/report?cat=bingcsp"}]}
+BingAPIs-TraceId: 64550c88f025401992793cf8605d8f1c
+BingAPIs-SessionId: F3E6CE8EFE164B68844C329F4212C92B
+X-Search-ResponseInfo: InternalResponseTime=58,MSDatacenter=BNZE01
+X-Cache: CONFIG_NOCACHE
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-MSEdge-Ref: Ref A: 71F92885CBFC4F8B83F48E49FD7F27B6 Ref B: CPQ02EDGE1907 Ref C: 2023-05-05T14:02:48Z
+Date: Fri, 05 May 2023 14:02:47 GMT
+

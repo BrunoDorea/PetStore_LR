@@ -1,0 +1,11 @@
+[t34]
+FileName1=t34.html
+URL1=https://edgeservices.bing.com/web/xls.aspx
+Total=1
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=t34_RequestBody.txt
+ResponseHeaderFile=t34_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_32.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,12 @@
+POST /api/browser/edge/navigate/3 HTTP/1.1
+Host: nav-edge.smartscreen.microsoft.com
+Connection: keep-alive
+Content-Length: 1742
+Authorization: SmartScreenHash eyJhdXRoSWQiOiIzODFkZGQxZS1lNjAwLTQyZGUtOTRlZC04YzM0YmY3M2YxNmQiLCAia2V5IjoiWTdET2NmQ3BySGFHZmEyQUNGaG1Fdz09IiwgImhhc2giOiIzSGlRODh2UE1aWT0ifQ==
+Content-Type: application/json; charset=utf-8
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68
+Accept-Encoding: gzip, deflate, br
+

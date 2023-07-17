@@ -1,0 +1,11 @@
+[t21]
+FileName1=t21_l.html
+URL1=https://edgeservices.bing.com/fd/ls/l?IG=977589CA5892446ABE462DA9F5817B5C&Type=Event.CPT&DATA={%22pp%22:{%22S%22:%22L%22,%22FC%22:50,%22BC%22:50,%22SE%22:-1,%22TC%22:-1,%22H%22:110,%22BP%22:110,%22CT%22:111,%22IL%22:0},%22ad%22:[-1,-1,0,0,0,0,0],%22net%22:%22undefined%22}&P=UNSP&DA=BNZE01
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_19.xml
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

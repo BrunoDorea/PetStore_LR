@@ -1,0 +1,17 @@
+POST /v3/b6bf7d3508c941499b10025c0776eaf8 HTTP/1.1
+Host: mainnet.infura.io
+Connection: keep-alive
+Content-Length: 63
+sec-ch-ua: "Chromium";v="112", "Microsoft Edge";v="112", "Not:A-Brand";v="99"
+sec-ch-ua-platform: "Windows"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Origin: chrome-extension://ejbalbakoplchlghecdalmeeeajnimhm
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+

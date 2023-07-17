@@ -1,0 +1,17 @@
+GET /service/Finance/Exchanges?apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&activityId=C21AC699-DEC3-4D59-9367-F956C327C975&ocid=finance-utils-peregrine&cm=pt-br&it=app&ids=r6dwnn&wrapodata=false HTTP/1.1
+Host: assets.msn.com
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="112", "Microsoft Edge";v="112", "Not:A-Brand";v="99"
+Accept: */*
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68
+sec-ch-ua-platform: "Windows"
+Origin: https://ntp.msn.com
+X-Client-Data: eyIxIjoiMCIsIjEwIjoiIiwiMiI6IjAiLCIzIjoiMCIsIjQiOiI2NTkwNDA0MjQzNjAwMzYxNzk4IiwiNSI6IlwiWHBYVWIyVUJKMVZOU3FHTmgrY2prQllHY1NCK2M5MHhycmVlaE1LUGZiND1cIiIsIjYiOiJzdGFibGUiLCI3IjoiMjk2MzUyNzQzNDI1IiwiOSI6ImRlc2t0b3AifQ==
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://ntp.msn.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+

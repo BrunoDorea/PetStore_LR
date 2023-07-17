@@ -1,0 +1,13 @@
+[t49]
+FileName1=t49.htm
+URL1=https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH
+Total=2
+RequestHeaderFile=t49_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t49_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_47.xml
+FileName2=t49_D200PartlySunnyV2.svg
+URL2=https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v7/Condition/D200PartlySunnyV2.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

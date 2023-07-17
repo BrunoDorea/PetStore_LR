@@ -1,0 +1,11 @@
+[t18]
+FileName1=t18_crx.xml
+URL1=https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=112.0.1722.68&lang=pt-BR&acceptformat=crx3&x=id%3Dglobgafddkdlnalejlkcpaefakkhkdoa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc
+Total=1
+ContentType=text/xml
+SnapshotXmlFile=snapshot_16.xml
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t18_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t27]
+FileName1=t27.json
+URL1=https://edge.microsoft.com/sync/v2/feeds/me/subscriptions
+Total=2
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=t27_RequestBody.txt
+ResponseHeaderFile=t27_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_25.xml
+FileName2=t27_easylistportuguese+easylist.txt
+URL2=https://easylist-downloads.adblockplus.org/easylistportuguese+easylist.txt?addonName=adblockchrome&addonVersion=5.6.0&application=edg&applicationVersion=112.0.1722.68&platform=chromium&platformVersion=112.0.0.0&lastVersion=202304301602&downloadCount=4%2B&disabled=false&manifestVersion=2&firstVersion=202303
+[ProtocolInfo]
+ProtocolId=QTWeb

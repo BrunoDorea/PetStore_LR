@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Github\PetStore_LR
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\github\petstore_lr\\logfile.log
+c:\github\petstore_lr\\combined_PetStore.c
+c:\github\petstore_lr\\pre_cci.c

@@ -1,0 +1,13 @@
+[t48]
+FileName1=t48.txt
+URL1=https://aefd.nelreports.net/api/report?cat=bingth
+Total=2
+RequestHeaderFile=t48_RequestHeader.txt
+RequestBodyFile=t48_RequestBody.txt
+ResponseHeaderFile=t48_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_46.xml
+FileName2=t48_humidity.svg
+URL2=https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v7/Teaser/humidity.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

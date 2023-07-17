@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 05 May 2023 14:02:19 GMT
+Content-Type: application/json
+Content-Length: 2
+Connection: keep-alive
+access-control-allow-origin: *
+vary: origin,access-control-request-method,access-control-request-headers
+access-control-expose-headers: x-sentry-error,x-sentry-rate-limits,retry-after
+x-envoy-upstream-service-time: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+

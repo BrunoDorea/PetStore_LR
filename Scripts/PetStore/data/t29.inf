@@ -1,0 +1,13 @@
+[t29]
+FileName1=t29_collections.json
+URL1=https://www.bingapis.com/api/v7/saves/edge/collections?appid=44A72CAAA7B8B99CBEF405BFAD4E9B24370F2853
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_27.xml
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t29_ResponseHeader.txt
+FileName2=t29_abp-filters-anti-cv.txt
+URL2=https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt?addonName=adblockchrome&addonVersion=5.6.0&application=edg&applicationVersion=112.0.1722.68&platform=chromium&platformVersion=112.0.0.0&lastVersion=202304301601&downloadCount=4%2B&disabled=false&manifestVersion=2&firstVersion=202303
+[ProtocolInfo]
+ProtocolId=QTWeb

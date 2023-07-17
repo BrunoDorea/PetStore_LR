@@ -1,0 +1,38 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: TicketType,RequestContinuationKey,AuthToken,Content-Type,x-client-activityid,ms-cv,signedInCookieName,muid,appid,User-Location,user-location,userauthtoken,usertickettype,sitename,s2sauthtoken,thumbprint,Authorization,Ent-Authorization,UserIdToken,DDD-TMPL,DDD-ActivityId,DDD-FeatureSet,DDD-Session-ID,Date,date,ads-referer,ads-referer,taboola-sessionId,taboola-sessionid,Akamai-Request-ID,Akamai-Server-IP,X-MSEdge-Ref,DDD-DebugId,s-xbox-token,OneWebServiceLatency,X-FD-Features,DDD-UserType,traceparent
+Access-Control-Allow-Methods: PUT,PATCH,POST,GET,OPTIONS,DELETE
+Access-Control-Allow-Origin: https://ntp.msn.com
+Access-Control-Expose-Headers: TicketType,RequestContinuationKey,AuthToken,Content-Type,x-client-activityid,ms-cv,signedInCookieName,muid,appid,User-Location,user-location,userauthtoken,usertickettype,sitename,s2sauthtoken,thumbprint,Authorization,Ent-Authorization,UserIdToken,DDD-TMPL,DDD-ActivityId,DDD-FeatureSet,DDD-Session-ID,Date,date,ads-referer,ads-referer,taboola-sessionId,taboola-sessionid,Akamai-Request-ID,Akamai-Server-IP,X-MSEdge-Ref,DDD-DebugId,s-xbox-token,OneWebServiceLatency,X-FD-Features,DDD-UserType,traceparent
+Content-Encoding: gzip
+DDD-AuthenticatedWithJwtFlow: False
+DDD-UserType: PersonalMicrosoftAccount
+DDD-TMPL: IMorPubUser:1;CGShowNews3:1;HasClientIpUserProfile:1;triggercf_0_1min_mhot;Expl:1;GANews5:1;tmpl-l1-autos:1;UTctr;tmpl-sd-sdcold-c;FixIds:0;tmpl-l1-video:1;ClickCohort:1;RR:0;tbn:0;CGShowNews4:1;LdaV21;CGShowNews2:1;UserXEverythingV2;XAIG:100;tmpl-l1-local:1;PageViewCount2To9;MyFeed;triggercf_i2i;TileID:7jsw;VertVectorV21;tempNineCard:1;triggercf;IMArticleNegUser:0;ClientIpFallbackCohort:W_C;tmpl-place-place:1;TPUser:1;tmpl-l1-shopping:1;SageUserStatus:6_0_0_4;ULatLon0:0;GANone:1;XFeed;tmpl-high:1;IMUser:1;user_cluster_v4_1:1;ACTION:Follow:Interest;UTnegImpr;TypeVectorV21;CGShowTopstories:1;ClientIpFallbackCohort:W_W
+x-wpo-activityId: 3823E964-CD80-4E84-ABB9-4E9318038F22|2023-05-05T14:02:50.5421933Z|fabric:/wpo|EUS2|WPO_7
+DDD-FeedNewsItemCount: 35
+DDD-FeatureSet: 0,Msn.OneDataService.Search.FeatureTracker.Models.NewsFeedFeature:QwAA;
+DDD-ActivityId: 3823e964-cd80-4e84-abb9-4e9318038f22
+DDD-StrategyExecutionLatency: 00:00:00.6520598
+DDD-DebugId: 3823e964-cd80-4e84-abb9-4e9318038f22|2023-05-05T14:02:50.5704619Z|fabric:/ntpfeed|EUS2|NtpFeed_598
+OneWebServiceLatency: 657
+X-MSEdge-ResponseInfo: 657
+Accept-CH: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+X-Ceto-ref: 64550c89851a4e718c0f4b8e59faf1cb|2023-05-05T14:02:49.907Z
+Expires: Fri, 05 May 2023 14:02:50 GMT
+Date: Fri, 05 May 2023 14:02:50 GMT
+Content-Length: 41622
+Connection: keep-alive
+Akamai-Request-BC: [a=92.123.3.15,b=266385645,c=g,n=BR_SP_SAOPAULO,o=20940],[a=20.124.144.14,c=o]
+Server-Timing: clientrtt; dur=57, clienttt; dur=813, origin; dur=812 , cdntime; dur=1
+Akamai-Cache-Status: Miss from child
+Akamai-Server-IP: 92.123.3.15
+Akamai-Request-ID: fe0b8ed
+X-AS-SuppressSetCookie: 1
+Cache-Control: private, max-age=0
+report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://deff.nelreports.net/api/report?cat=msn"}]}
+nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_fraction":0.1}
+Timing-Allow-Origin: *
+Vary: Origin
+

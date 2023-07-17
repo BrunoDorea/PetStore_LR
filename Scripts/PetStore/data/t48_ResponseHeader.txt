@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Length: 21
+Content-Type: text/plain; charset=utf-8
+Date: Fri, 05 May 2023 14:03:03 GMT
+Connection: keep-alive
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Methods: GET, OPTIONS, POST
+Access-Control-Allow-Origin: *
+

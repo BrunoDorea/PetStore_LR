@@ -1,0 +1,11 @@
+[t56]
+FileName1=t56_find-assets.json
+URL1=https://edge.microsoft.com/entityextractiontemplates/api/v1/assets/find-assets?name=extraction.proactiveProduct.en-us&version=5.*.*&channel=stable&key=d414dd4f9db345fa8003e32adc81b362
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_54.xml
+RequestHeaderFile=t56_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t56_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
