@@ -14,23 +14,23 @@ GlobalDir=
 }
 
 {ScenarioPrivateConfig
-Path=C:\Users\Z281658\Downloads\PetStore.lrs
+Path=C:\Github\PetStore_LR\Cenario\PetStore.lrs
 Author=z281658
 Subject=NBA_API
 Description=
 Hosts=7
 Scripts=1
 Groups=1
-Vusers=60
+Vusers=10
 Tranzactions=5
 Rendezvous=0
-Result_file=D:\projetos\NBA\Results\NBA_API_20230602_\NBA_API_20230602_.lrr
-ResCleanName=NBA_API_20230602_
+Result_file=C:\Github\PetStore_LR\Results\PETSTORE_\PETSTORE_.lrr
+ResCleanName=PETSTORE_
 ResSymName=
 DEFAULT_NFS_LESS_MODE=1
 AutoSetResults=0
 AutoOverwriteResults=1
-BaseResultsName=NBA_API_20230602_
+BaseResultsName=PETSTORE_
 MaxVuserSeedNumberUsed=0
 PlannedNumOfVusers=1
 PrivatePlannedNumOfVusers=0
@@ -56,7 +56,7 @@ ScenarioStartAtTime=36308
 ScenarioStartAtTimeYear=2023
 ScenarioStartAtTimeMonth=6
 ScenarioStartAtTimeDay=2
-GIndexSortType=10
+GIndexSortType=20
 GIndexAutoSort=0
 SoftKillMode=0
 }
@@ -350,7 +350,7 @@ HostSettingsEnableTerminal=0
 }
 
 {localhost
-PLATFORM=Windows 2008 R2
+PLATFORM=Windows 10
 IS_REMOTE_LOGIN=0
 REMOTE_LOGIN=
 IS_LOCAL_LOGIN=0
@@ -382,15 +382,15 @@ HostSettingsEnableTerminal=0
 
 {TestChief
 
-{petstore_lr
-UiName=PetStore_LR
+{petstore
+UiName=PetStore
 Type=1
 SubType=Multi+QTWeb
 ScriptType=14
-Path=C:\Users\Z281658\Downloads\PetStore_LR\PetStore.usr
+Path=C:\Github\PetStore_LR\Scripts\PetStore\PetStore.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="pt-BR"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="pt-BR"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1252"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2023/05/05 12:47:59"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage="http://go.microsoft.com/fwlink/p/?LinkId=255141"\r\nProxyUseSame="1"\r\nScreenWidth="1366"\r\nScreenAvailHeight="720"\r\nBrowserAcceptLanguage="pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="pt-BR"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive="0"\r\nProxyHTTPSPort="443"\r\nMaxConnections="0"\r\nScreenHeight="768"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="1"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="0"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nAutomaticTransactions="0"\r\nContinueOnError="0"\r\nXlBridgeTimeout="120"\r\nautomatic_nested_transactions="1"\r\nUseThreads="1"\r\nDefaultRunLogic="uspp34.697"\r\nAutomaticTransactionsPerFunc="0"\r\nEncoding="ANSI"\r\nFailTransOnErrorMsg="0"\r\nReplay64bit="0"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="1"\r\nLimitFlag="0"\r\n
+Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1366"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="pt-BR"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="pt-BR"\r\nUseCustomAgent="1"\r\nRecorderWinCodePage="1252"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nStartRecordingGMT="2023/05/05 12:47:59"\r\nResetContext="1"\r\nProxyUseAutoConfigScript="0"\r\nUserHomePage="http://go.microsoft.com/fwlink/p/?LinkId=255141"\r\nProxyUseSame="1"\r\nScreenWidth="1366"\r\nScreenAvailHeight="720"\r\nBrowserAcceptLanguage="pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="pt-BR"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate, br"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive="0"\r\nProxyHTTPSPort="443"\r\nMaxConnections="0"\r\nScreenHeight="768"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"\r\n[Log]\r\nMsgClassParameters="1"\r\nLogOptions="LogExtended"\r\nAutoLogBufferSize="1"\r\nIncludeEnvInfo="1"\r\nPrintTimeStamp="0"\r\nMsgClassFull="0"\r\nAutoLog="0"\r\nMsgClassData="1"\r\nLogDetail="1"\r\n[General]\r\nAutomaticTransactions="0"\r\nContinueOnError="0"\r\nXlBridgeTimeout="120"\r\nautomatic_nested_transactions="1"\r\nUseThreads="1"\r\nDefaultRunLogic="uspRHa.925"\r\nAutomaticTransactionsPerFunc="0"\r\nEncoding="ANSI"\r\nFailTransOnErrorMsg="0"\r\nReplay64bit="0"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nThinkTimeRandomLow="50"\r\nThinkTimeRandomHigh="150"\r\nLimit="1"\r\nLimitFlag="0"\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Action"\r\nName="Run"\r\nRunLogicActionOrder="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90"\r\nRunLogicAfterPaceMin="60"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60"\r\nRunLogicPaceConstTime="60"\r\nRunLogicPaceType="Asap"\r\nRunLogicRandomPaceMax="90"\r\nRunLogicRandomPaceMin="60"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Action"\r\nName="Action"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -408,370 +408,70 @@ Trans=PET_STORE_05_ADD_TO_CART
 
 {GroupChief
 
-{PetStore_LR
-
-{54
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{28
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{19
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
+{PetStore
 
 {4
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{55
-5=petstore_lr
+5=petstore
 9=localhost
 SEED_NUM=0
 }
 
 {3
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{52
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{38
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{27
-5=petstore_lr
+5=petstore
 9=localhost
 SEED_NUM=0
 }
 
 {2
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{53
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{41
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{39
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{26
-5=petstore_lr
+5=petstore
 9=localhost
 SEED_NUM=0
 }
 
 {1
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{50
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{40
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{25
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{51
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{43
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{24
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{12
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{60
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{42
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{23
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{13
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{45
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{34
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{22
-5=petstore_lr
+5=petstore
 9=localhost
 SEED_NUM=0
 }
 
 {10
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{44
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{35
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{21
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{11
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{47
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{36
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{20
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{16
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{46
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{37
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{17
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{49
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{30
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{14
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{48
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{31
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{15
-5=petstore_lr
+5=petstore
 9=localhost
 SEED_NUM=0
 }
 
 {9
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{58
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{32
-5=petstore_lr
+5=petstore
 9=localhost
 SEED_NUM=0
 }
 
 {8
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{59
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{33
-5=petstore_lr
+5=petstore
 9=localhost
 SEED_NUM=0
 }
 
 {7
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{56
-5=petstore_lr
+5=petstore
 9=localhost
 SEED_NUM=0
 }
 
 {6
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{57
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{29
-5=petstore_lr
-9=localhost
-SEED_NUM=0
-}
-
-{18
-5=petstore_lr
+5=petstore
 9=localhost
 SEED_NUM=0
 }
 
 {5
-5=petstore_lr
+5=petstore
 9=localhost
 SEED_NUM=0
 }
 
 {ChiefSettings
-5=petstore_lr
+5=petstore
 9=localhost
 GroupParam=
 Enabled=1
@@ -1146,9 +846,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=1
-Measurement_0=|||30|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_0="petstore_lr::0"
+MeasurementCount=0
 Description=Displays details about the number of errors that accrue during each second of the scenario or session step run.
 [9]
 MeasurementsDelimiter=|||
@@ -1187,9 +885,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=1
-Measurement_0=|||17|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_0="petstore_lr::0"
+MeasurementCount=0
 Description=Displays details about the number of Vusers that generate errors during scenario or session step execution.
 [10]
 MeasurementsDelimiter=|||
@@ -1391,10 +1087,10 @@ Measurement_1=|||11|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
 MeasurementFullPath_1="PET_STORE_02_SELECT_CATEGORY"
 Measurement_2=|||30|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
 MeasurementFullPath_2="PET_STORE_03_SELECT_PRODUCT_ID"
-Measurement_3=|||6|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_3="PET_STORE_05_ADD_TO_CART"
-Measurement_4=|||29|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_4="PET_STORE_04_SELECT_ITEM_ID"
+Measurement_3=|||29|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_3="PET_STORE_04_SELECT_ITEM_ID"
+Measurement_4=|||6|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_4="PET_STORE_05_ADD_TO_CART"
 Description=Displays the average time taken to perform transactions during each second of the load test. This graph helps you determine whether the performance of the server is within acceptable minimum and maximum transaction performance time ranges defined for your system.
 [15]
 MeasurementsDelimiter=|||
@@ -1479,10 +1175,10 @@ Measurement_1=|||26|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_1="PET_STORE_02_SELECT_CATEGORY"
 Measurement_2=|||24|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_2="PET_STORE_03_SELECT_PRODUCT_ID"
-Measurement_3=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_3="PET_STORE_05_ADD_TO_CART"
-Measurement_4=|||25|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
-MeasurementFullPath_4="PET_STORE_04_SELECT_ITEM_ID"
+Measurement_3=|||25|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_3="PET_STORE_04_SELECT_ITEM_ID"
+Measurement_4=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_4="PET_STORE_05_ADD_TO_CART"
 Description=Displays the number of successful transactions performed during each second of a load test. This graph helps you determine the actual transaction load on your system at any given moment.
 [17]
 MeasurementsDelimiter=|||
@@ -1729,10 +1425,10 @@ Measurement_1=|||29|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
 MeasurementFullPath_1="PET_STORE_02_SELECT_CATEGORY"
 Measurement_2=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
 MeasurementFullPath_2="PET_STORE_03_SELECT_PRODUCT_ID"
-Measurement_3=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_3="PET_STORE_05_ADD_TO_CART"
-Measurement_4=|||21|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
-MeasurementFullPath_4="PET_STORE_04_SELECT_ITEM_ID"
+Measurement_3=|||21|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_3="PET_STORE_04_SELECT_ITEM_ID"
+Measurement_4=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_4="PET_STORE_05_ADD_TO_CART"
 Description=Total Pass transaction graph
 [23]
 MeasurementsDelimiter=|||
@@ -5114,7 +4810,7 @@ MachinesCount=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="6489b3ade" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="64c19d55e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioSchedulerConfig
@@ -5145,14 +4841,14 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                 </StartCondition>
                 <Batch>
                   <Count>1</Count>
-                  <Interval>10</Interval>
+                  <Interval>3</Interval>
                 </Batch>
               </RampUpAll>
               <Duration>
                 <StartCondition>
                   <PrevAction />
                 </StartCondition>
-                <RunFor>120</RunFor>
+                <RunFor>300</RunFor>
               </Duration>
               <RampDownAll>
                 <StartCondition>
@@ -5160,7 +4856,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                 </StartCondition>
                 <Batch>
                   <Count>1</Count>
-                  <Interval>2</Interval>
+                  <Interval>1</Interval>
                 </Batch>
               </RampDownAll>
             </DynamicScheduling>
@@ -5169,7 +4865,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
         <Groups>
           <InitAllBeforeStart>false</InitAllBeforeStart>
           <GroupScheduler>
-            <GroupName>petstore_lr</GroupName>
+            <GroupName>petstore</GroupName>
             <StartupMode>
               <StartAtScenarioBegining />
             </StartupMode>
@@ -5241,10 +4937,10 @@ localhost=00000000-0000-0000-0000-000000000000
 }
 
 {LocAssignedToGroup
-PetStore_LR=00000000-0000-0000-0000-000000000000
+PetStore=00000000-0000-0000-0000-000000000000
 }
 
 {LocAssignedToTest
-PetStore_LR=00000000-0000-0000-0000-000000000000
+PetStore=00000000-0000-0000-0000-000000000000
 }
 }

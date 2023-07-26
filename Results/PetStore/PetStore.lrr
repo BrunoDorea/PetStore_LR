@@ -1,0 +1,33 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2021.0.0.0
+Path=C:\Github\PetStore_LR\Cenario\PetStore.lrs
+Subject=NBA_API
+Result_file=C:\Github\PetStore_LR\Results\PETSTORE_\PETSTORE_.lrr
+Description=
+ResultName=PETSTORE_
+Time_Zone=10800
+Start_time=1690409842
+Daylight_Bias=0
+Stop_time=1690410191
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start all Vusers: 1 every 00:00:03 (HH:MM:SS); Run for 00:05:00 (HH:MM:SS); Stop all Vusers: 1 every 00:00:01 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST10_1E3;R300;SP10_1E1;
+[Scripts]
+PetStore=C:\Github\PetStore_LR\Scripts\PetStore\PetStore.usr
+[Scripts_types]
+PetStore=Multi+QTWeb

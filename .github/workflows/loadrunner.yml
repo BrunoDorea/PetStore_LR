@@ -1,0 +1,24 @@
+name: LoadRunner Performance Test
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  performance_test:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      - name: Setup LoadRunner
+        # Adicione aqui os comandos para configurar o ambiente do LoadRunner
+        
+      - name: Run LoadRunner Test
+        # Adicione aqui os comandos para executar o teste de desempenho do LoadRunner
+
+      - name: Send Notification
+      # Adicione aqui os comandos para enviar notificações
